@@ -274,3 +274,5 @@ rules:
      why: "PTR now names another host (1hjf.alisha.uk.com)"}
   - {record: shodan, net: 98.143.148.135/32, source: publicguard*, action: drop,
      why: "PTR now names another host (api4.dizifrost.net)"}
+  - {record: paderborn, net: 195.37.190.64/27, source: openfilters, action: move, to: rub,
+     why: "registered to Ruhr-Universität Bochum (Chair for Network and Data Security); its PTR records name RUB hosts"}

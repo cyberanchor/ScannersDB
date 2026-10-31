@@ -44523,15 +44523,6 @@
    {
     "asn": "AS680",
     "isp": "Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.",
-    "org": "RUB NDS",
-    "country": "DE",
-    "ip": [
-     "195.37.190.64/27"
-    ]
-   },
-   {
-    "asn": "AS680",
-    "isp": "Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.",
     "org": "UP Nets3",
     "country": "DE",
     "ip": [
@@ -44544,8 +44535,8 @@
    "https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft"
   ],
   "updated": "2026-10-31",
-  "ipv4_networks": 3,
-  "ipv4_addresses": 35,
+  "ipv4_networks": 2,
+  "ipv4_addresses": 3,
   "ipv6_networks": 0,
   "ipv6_addresses": 0
  },
@@ -46103,6 +46094,15 @@
   ],
   "ipv4": [
    {
+    "asn": "AS680",
+    "isp": "Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.",
+    "org": "RUB NDS",
+    "country": "DE",
+    "ip": [
+     "195.37.190.64/27"
+    ]
+   },
+   {
     "asn": "AS29484",
     "isp": "Ruhr-Universitaet Bochum",
     "org": "Ruhr-Universitaet Bochum",
@@ -46132,8 +46132,8 @@
    "https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft"
   ],
   "updated": "2026-10-31",
-  "ipv4_networks": 6,
-  "ipv4_addresses": 7,
+  "ipv4_networks": 7,
+  "ipv4_addresses": 39,
   "ipv6_networks": 1,
   "ipv6_addresses": 1
  },

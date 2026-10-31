@@ -144,6 +144,7 @@ that is not a valid network, a widened range. Each was checked against RDAP, ip-
 | shodan        | 198.20.69.80     | publicguard*    | left out                                | PTR now names another host (chuck.nodeservers.net)                                                                                     |
 | shodan        | 98.143.148.107   | publicguard*    | left out                                | PTR now names another host (1hjf.alisha.uk.com)                                                                                        |
 | shodan        | 98.143.148.135   | publicguard*    | left out                                | PTR now names another host (api4.dizifrost.net)                                                                                        |
+| paderborn     | 195.37.190.64/27 | openfilters     | moved to rub                            | registered to Ruhr-Universität Bochum (Chair for Network and Data Security); its PTR records name RUB hosts                            |
 <!-- rules:end -->
 
 ## Adding or changing a scanner
