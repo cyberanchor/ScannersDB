@@ -1,0 +1,24 @@
+# ScannersDB record; fields are described in data/README.md
+name: Intrinsec
+legal_entity: Intrinsec Sécurité
+flag: 🇫🇷
+country: France
+website: https://www.intrinsec.com/
+category: company
+status: active
+rdns:
+- '*.intrinsec.com'
+ipv4:
+- asn: AS16276
+  isp: OVH SAS
+  org: abuse.intrinsec.com Site Abuse
+  country: FR
+  ip:
+  - '46.105.132.32/27'
+  - '51.38.12.12/30'
+  - '51.38.12.20/30'
+  - '51.254.59.112/28'
+  - '213.32.122.80/28'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/intrinsec.nft
+updated: '2026-10-31'

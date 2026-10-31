@@ -1,0 +1,58 @@
+# ScannersDB record; fields are described in data/README.md
+name: IPTruth
+website: https://iptruth.com/
+category: unknown
+status: active
+note: Pages titled "Internet Research Detection - IPTruth"; no PTR records.
+ipv4:
+- asn: AS21738
+  isp: Rozint Ltd Co
+  org: F4 Networks, LLC
+  country: US
+  ip:
+  - '2.59.255.74'
+- asn: AS32181
+  isp: GigeNET
+  org: TNAHOSTING
+  country: US
+  ip:
+  - '199.85.8.144'
+- asn: AS36352
+  isp: HostPapa
+  org: VPS ACE
+  country: IE
+  ip:
+  - '204.44.125.237'
+- asn: AS36352
+  isp: HostPapa
+  org: HostPapa
+  country: US
+  ip:
+  - '67.215.228.63'
+- asn: AS59253
+  isp: Leaseweb Singapore Pte. Ltd.
+  org: Leaseweb Singapore Pte. LTD
+  country: SG
+  ip:
+  - '172.255.209.23'
+- asn: AS197540
+  isp: netcup GmbH
+  org: NETCUP-KVM
+  country: DE
+  ip:
+  - '159.195.79.176'
+- asn: AS213929
+  isp: UP-NETWORK Sarl
+  org: UP-NETWORK Sarl
+  country: CH
+  ip:
+  - '84.75.255.71'
+- asn: AS397423
+  isp: Tier.Net Technologies LLC
+  org: Tier.Net Technologies LLC
+  country: US
+  ip:
+  - '154.30.3.68'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

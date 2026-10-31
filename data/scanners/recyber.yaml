@@ -1,0 +1,33 @@
+# ScannersDB record; fields are described in data/README.md
+name: Recyber
+website: https://www.recyber.net/
+category: research
+status: active
+rdns:
+- recyber.net
+note: Part of the addresses has no PTR record.
+ipv4:
+- asn: AS202425
+  isp: IP Volume inc
+  org: IP Volume inc
+  country: NL
+  ip:
+  - '89.248.163.0/24'
+- asn: AS202425
+  isp: IP Volume inc
+  org: Quasi Networks LTD.
+  country: NL
+  ip:
+  - '89.248.165.0/24'
+  - '89.248.173.170'
+  - '89.248.173.173'
+  - '89.248.173.177'
+  - '89.248.174.130/31'
+  - '89.248.174.171'
+  - '89.248.174.178'
+  - '89.248.174.183'
+  - '89.248.174.188'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/recyber.nft
+- https://github.com/Connie-Wild/scanner-ip-list/blob/main/recyber.txt
+updated: '2026-10-31'

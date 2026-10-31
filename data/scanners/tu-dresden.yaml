@@ -1,0 +1,31 @@
+# ScannersDB record; fields are described in data/README.md
+name: TU Dresden
+legal_entity: Technische Universität Dresden
+flag: 🇩🇪
+country: Germany
+website: https://tu-dresden.de/
+category: university
+status: active
+ipv4:
+- asn: AS680
+  isp: Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.
+  org: FH Softlab
+  country: DE
+  ip:
+  - '141.22.28.227'
+- asn: AS680
+  isp: Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.
+  org: TUD Netd Measurement
+  country: DE
+  ip:
+  - '141.76.94.10/31'
+  - '141.76.94.12/30'
+  - '141.76.94.16/31'
+  - '141.76.94.18'
+  - '141.76.94.28'
+  - '141.76.94.31'
+  - '141.76.94.37'
+  - '141.76.94.38'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

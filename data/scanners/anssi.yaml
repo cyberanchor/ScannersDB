@@ -1,0 +1,45 @@
+# ScannersDB record; fields are described in data/README.md
+name: ANSSI / CERT-FR
+legal_entity: Agence nationale de la sécurité des systèmes d'information
+flag: 🇫🇷
+country: France
+website: https://cyber.gouv.fr/
+category: government
+status: active
+asn: [AS202214]
+opt_out: https://www.cert.ssi.gouv.fr/scans/
+note: The French national cybersecurity agency scans to warn owners of exposed French systems. AS202214 belongs to its parent, the Secrétariat général de la défense et de la sécurité nationale.
+ipv4:
+- asn: AS3215
+  isp: France Telecom
+  country: FR
+  ip:
+  - '80.13.153.140'
+- asn: AS3215
+  isp: France Telecom Orange
+  country: FR
+  ip:
+  - '92.154.95.236'
+- asn: AS3215
+  isp: Orange S.A.
+  org: Sgdsn
+  country: FR
+  ip:
+  - '217.108.23.109'
+- asn: AS16276
+  isp: OVH SAS
+  org: OVH
+  country: FR
+  ip:
+  - '54.38.103.0/31'
+  - '137.74.246.152'
+  - '147.135.160.230'
+- asn: AS202214
+  isp: Secretariat General de la Defense et de la Securite Nationale
+  org: SDO Data
+  country: FR
+  ip:
+  - '185.50.66.1'
+sources:
+- https://github.com/wdes/security/blob/main/data/scanners/anssi.txt
+updated: '2026-10-31'

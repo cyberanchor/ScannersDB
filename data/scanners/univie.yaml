@@ -1,0 +1,51 @@
+# ScannersDB record; fields are described in data/README.md
+name: University of Vienna
+legal_entity: Universität Wien
+flag: 🇦🇹
+country: Austria
+website: https://www.univie.ac.at/
+category: university
+status: active
+ipv4:
+- asn: AS1764
+  isp: Next Layer Telekommunikationsdienstleistungs- und Beratungs GmbH
+  org: AIM Scaninfra V4 SBA Research
+  country: AT
+  ip:
+  - '81.16.152.2'
+- asn: AS16276
+  isp: OVH SAS
+  org: OVH Australia PTY LTD
+  country: AU
+  ip:
+  - '51.161.130.146'
+- asn: AS16276
+  isp: OVH SAS
+  org: OVH Hosting, Inc.
+  country: CA
+  ip:
+  - '51.79.50.134'
+ipv6:
+- asn: AS1764
+  isp: Next Layer Telekommunikationsdienstleistungs- und Beratungs GmbH
+  org: AIM Scaninfra SBA Research
+  country: AT
+  ip:
+  - '2a01:190:151a:1::5ba:100'
+  - '2a01:190:151a:1::5ba:200/127'
+  - '2a01:190:151a:1::5ba:202'
+- asn: AS16276
+  isp: OVH SAS
+  org: OVH SYD
+  country: AU
+  ip:
+  - '2402:1f00:8100:400::1d66'
+- asn: AS16276
+  isp: OVH SAS
+  org: OVH Hosting, Inc
+  country: CA
+  ip:
+  - '2607:5300:205:200::2b1e'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

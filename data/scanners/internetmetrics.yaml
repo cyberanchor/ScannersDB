@@ -1,0 +1,19 @@
+# ScannersDB record; fields are described in data/README.md
+name: Internet Metrics
+website: https://internet-metrics.com/
+category: research
+status: active
+rdns:
+- '*.internet-metrics.com'
+opt_out: scan@internet-metrics.com
+ipv4:
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode
+  country: US
+  ip:
+  - '50.116.30.197'
+  - '96.126.112.111'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/internetmetrics.nft
+updated: '2026-10-31'

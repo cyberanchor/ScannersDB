@@ -1,0 +1,31 @@
+# ScannersDB record; fields are described in data/README.md
+name: Ruhr University Bochum
+legal_entity: Ruhr-Universität Bochum
+flag: 🇩🇪
+country: Germany
+website: https://www.ruhr-uni-bochum.de/
+category: university
+status: active
+asn: [AS29484]
+ipv4:
+- asn: AS29484
+  isp: Ruhr-Universitaet Bochum
+  org: Ruhr-Universitaet Bochum
+  country: DE
+  ip:
+  - '185.73.23.133'
+  - '185.73.23.151'
+  - '185.73.23.154/31'
+  - '185.73.23.161'
+  - '185.73.23.162'
+  - '185.73.23.168'
+ipv6:
+- asn: AS29484
+  isp: Ruhr-Universitaet Bochum
+  org: Ruhr-Universitaet Bochum
+  country: DE
+  ip:
+  - '2a05:3e07:801::a2'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

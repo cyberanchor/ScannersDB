@@ -1,0 +1,27 @@
+# ScannersDB record; fields are described in data/README.md
+name: Normshield (tchelebi.io)
+legal_entity: Black Kite, Inc.
+flag: 🇺🇸
+country: United States
+website: https://blackkite.com/
+category: company
+status: active
+rdns:
+- '*.tchelebi.io'
+note: Connie-Wild credits the tchelebi.io scanners to Normshield, which renamed itself Black Kite in 2020. tchelebi.io no longer answers and the list has not changed since 2023.
+ipv4:
+- asn: AS204272
+  isp: Asarta LLC
+  org: Asarta Sosnovo
+  country: RU
+  ip:
+  - '45.155.146.0/24'
+- asn: AS213640
+  isp: TALIDO LTD - Bulgaria Company
+  org: TALIDO Bilisim Teknolojileri Sanayi ve Ticaret Anonim Sirketi
+  country: BG
+  ip:
+  - '45.155.126.0/24'
+sources:
+- https://github.com/Connie-Wild/scanner-ip-list/blob/main/normshield.txt
+updated: '2026-10-31'

@@ -1,0 +1,18 @@
+# ScannersDB record; fields are described in data/README.md
+name: Technical University of Applied Sciences Augsburg
+legal_entity: Technische Hochschule Augsburg
+flag: 🇩🇪
+country: Germany
+website: https://www.tha.de/
+category: university
+status: active
+ipv4:
+- asn: AS680
+  isp: Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.
+  org: Hochschule fuer angewandte Wissenschaften Augsburg
+  country: DE
+  ip:
+  - '141.82.3.32'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

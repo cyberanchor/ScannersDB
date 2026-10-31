@@ -1,0 +1,18 @@
+# ScannersDB record; fields are described in data/README.md
+name: Esslingen University
+legal_entity: Hochschule Esslingen
+flag: 🇩🇪
+country: Germany
+website: https://www.hs-esslingen.de/
+category: university
+status: active
+ipv4:
+- asn: AS10439
+  isp: CariNet, Inc.
+  org: Hochschule Esslingen University
+  country: US
+  ip:
+  - '66.240.192.82/31'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

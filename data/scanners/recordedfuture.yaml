@@ -1,0 +1,39 @@
+# ScannersDB record; fields are described in data/README.md
+name: Recorded Future / SecurityTrails
+legal_entity: Recorded Future, Inc.
+flag: 🇺🇸
+country: United States
+website: https://www.recordedfuture.com/
+category: company
+status: active
+rdns:
+- '*.crawl.securitytrails.com'
+user_agents:
+- RecordedFuture Global Inventory Crawler
+note: 'Requests carry the header "X-Scanned-By: RecordedFuture-Global Inventory".'
+ipv4:
+- asn: AS14618
+  isp: Amazon.com, Inc.
+  org: AWS EC2 (us-east-1)
+  country: US
+  ip:
+  - '13.219.121.241'
+  - '18.235.110.182'
+  - '54.86.115.253'
+  - '98.84.1.175'
+  - '98.88.137.2'
+- asn: AS14618
+  isp: Amazon.com, Inc.
+  org: Recordedfuture
+  country: US
+  ip:
+  - '216.25.124.0/24'
+- asn: AS14618
+  isp: Amazon Technologies Inc.
+  org: AWS EC2 (us-east-1)
+  country: US
+  ip:
+  - '3.233.59.216'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/recordedfuture.nft
+updated: '2026-10-31'

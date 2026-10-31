@@ -1,0 +1,117 @@
+# ScannersDB record; fields are described in data/README.md
+name: Infrawatch
+legal_entity: Infrawatch Limited
+flag: 🇬🇧
+country: United Kingdom
+website: https://infrawat.ch/
+category: search-engine
+status: active
+rdns:
+- '*.infrawat.ch'
+user_agents:
+- Mozilla/5.0 (compatible; Infrawatch/1.0; +https://infrawat.ch/)
+opt_out: opt-out@infrawat.ch
+note: Company 16347462, registered in England and Wales. Part of the addresses has no PTR record.
+ipv4:
+- asn: AS3257
+  isp: Ipxo LLC
+  org: Ipxo LLC
+  country: US
+  ip:
+  - '64.205.72.0/24'
+- asn: AS9304
+  isp: HGC Global Communications Limited
+  org: StarNet InfoTech Consulting Limited
+  country: HK
+  ip:
+  - '77.67.26.0/24'
+- asn: AS25369
+  isp: Hydra Communications Ltd
+  org: Infrawatch Limited
+  country: DE
+  ip:
+  - '69.5.169.0/24'
+  - '193.124.20.224/27'
+  - '194.88.98.80/28'
+  - '194.88.98.96/27'
+- asn: AS25369
+  isp: Hydra Communications Ltd
+  org: Digital Energy Technologies Limited
+  country: GB
+  ip:
+  - '154.16.44.0/24'
+- asn: AS25369
+  isp: Hydra Communications Ltd
+  org: Infrawatch Limited
+  country: GB
+  ip:
+  - '5.226.140.0/25'
+  - '31.14.254.0/25'
+  - '37.10.113.208/28'
+  - '81.19.219.192/26'
+  - '89.37.172.128/27'
+  - '185.216.145.160/27'
+  - '188.240.59.0/26'
+  - '193.32.209.224/27'
+  - '193.176.29.0/27'
+  - '194.50.235.128/27'
+  - '195.140.214.16/28'
+  - '195.206.182.192/27'
+  - '195.206.182.224'
+  - '213.166.84.32/27'
+  - '217.146.80.96/27'
+- asn: AS25369
+  isp: Hydra Communications Ltd
+  org: Private Customer
+  country: GB
+  ip:
+  - '2.57.17.0/24'
+  - '45.133.173.0/24'
+- asn: AS25369
+  isp: Internet Utilities Europe and Asia Limited
+  org: Internet Utilities Europe and Asia Limited
+  country: GB
+  ip:
+  - '5.252.83.0/24'
+- asn: AS25369
+  isp: Hydra Communications Ltd
+  org: Infrawatch Limited
+  country: NL
+  ip:
+  - '81.19.216.64/26'
+  - '89.21.67.128/26'
+  - '185.223.235.0/26'
+  - '193.176.31.144/28'
+  - '193.176.31.192/26'
+- isp: Triathlon Trading FZCO
+  org: Triathlon Trading FZCO
+  country: BR
+  ip:
+  - '200.138.46.0/24'
+- isp: Beijing Tehuadun Starkley Trading Co. Ltd
+  org: Beijing Tehuadun Starkley Trading Co. Ltd
+  country: CN
+  ip:
+  - '86.38.187.0/24'
+ipv6:
+- asn: AS25369
+  isp: Hydra Communications Ltd
+  org: Infrawatch Limited
+  country: DE
+  ip:
+  - '2a01:4020:31::/64'
+- asn: AS25369
+  isp: Hydra Communications Ltd
+  org: Infrawatch Limited
+  country: GB
+  ip:
+  - '2a01:4020:1:1::/64'
+- asn: AS25369
+  isp: Hydra Communications Ltd
+  org: Infrawatch Limited
+  country: NL
+  ip:
+  - '2a01:4020:2:b::/64'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/infrawatch.nft
+updated: '2026-10-31'

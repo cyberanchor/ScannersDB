@@ -1,0 +1,26 @@
+# ScannersDB record; fields are described in data/README.md
+name: KU Leuven
+legal_entity: KU Leuven
+flag: 🇧🇪
+country: Belgium
+website: https://www.kuleuven.be/
+category: university
+status: active
+ipv4:
+- asn: AS14618
+  isp: Amazon Technologies Inc.
+  org: AWS EC2 (us-east-1)
+  country: US
+  ip:
+  - '3.80.87.6'
+  - '54.144.56.9'
+ipv6:
+- asn: AS14618
+  isp: Amazon.com, Inc.
+  org: AWS EC2 (us-east-1)
+  country: US
+  ip:
+  - '2600:1f18:2869:9b00:bec4:73f4:9a4e:18ce'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

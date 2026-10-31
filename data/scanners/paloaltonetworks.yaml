@@ -1,0 +1,82 @@
+# ScannersDB record; fields are described in data/README.md
+name: Palo Alto Networks Cortex Xpanse
+legal_entity: Palo Alto Networks, Inc.
+flag: 🇺🇸
+country: United States
+website: https://www.paloaltonetworks.com/cortex/cortex-xpanse
+category: company
+status: active
+user_agents:
+- 'Expanse, a Palo Alto Networks company, searches across the global IPv4 space multiple times per day to identify customers'' presences on the Internet. If you would like to be excluded from our scans, please send IP addresses/domains to: scaninfo@paloaltonetworks.com'
+- Hello from Palo Alto Networks, find out more about our scans in https://docs-cortex.paloaltonetworks.com/r/1/Cortex-Xpanse/Scanning-activity
+opt_out: scaninfo@paloaltonetworks.com
+note: Does not identify itself through PTR records.
+ipv4:
+- asn: AS63949
+  isp: Akamai Technologies
+  org: Expanse
+  country: US
+  ip:
+  - '172.105.147.0/24'
+- asn: AS396982
+  isp: Google LLC
+  org: Google Cloud (europe-west1)
+  country: BE
+  ip:
+  - '34.77.162.0/24'
+- asn: AS396982
+  isp: Google LLC
+  org: Google Cloud (europe-west2)
+  country: GB
+  ip:
+  - '35.203.210.0/23'
+- asn: AS396982
+  isp: Google LLC
+  org: Google Cloud (asia-east2)
+  country: HK
+  ip:
+  - '34.96.130.0/24'
+- asn: AS396982
+  isp: Google LLC
+  org: Expanse
+  country: US
+  ip:
+  - '144.86.173.0/24'
+- asn: AS396982
+  isp: Google LLC
+  org: Google Cloud (us-east1)
+  country: US
+  ip:
+  - '162.216.148.0/22'
+- asn: AS396982
+  isp: Google LLC
+  org: Google Cloud (us-east4)
+  country: US
+  ip:
+  - '34.86.35.0/24'
+- asn: AS396982
+  isp: Google LLC
+  org: Palo Alto Networks, Inc
+  country: US
+  ip:
+  - '147.185.132.0/22'
+  - '198.235.24.0/24'
+  - '205.210.31.0/24'
+- isp: Palo Alto Networks
+  org: Palo Alto Networks, Inc
+  country: US
+  ip:
+  - '216.25.88.0/21'
+ipv6:
+- asn: AS396982
+  isp: Google LLC
+  org: Palo Alto Networks, Inc
+  country: US
+  ip:
+  - '2604:a940:300::/47'
+  - '2604:a940:302::/48'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/paloaltonetworks.nft
+- https://github.com/Connie-Wild/scanner-ip-list/blob/main/xpanse.txt
+- https://github.com/cleverg0d/PublicGuard/pull/1
+updated: '2026-10-31'

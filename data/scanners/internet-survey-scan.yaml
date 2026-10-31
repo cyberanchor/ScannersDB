@@ -1,0 +1,16 @@
+# ScannersDB record; fields are described in data/README.md
+name: benign.internet.survey.scan
+category: unknown
+status: active
+rdns:
+- benign.internet.survey.scan
+ipv4:
+- asn: AS53667
+  isp: FranTech Solutions
+  org: FranTech Solutions
+  country: US
+  ip:
+  - '199.195.248.205'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

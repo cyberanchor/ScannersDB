@@ -1,0 +1,60 @@
+# ScannersDB record; fields are described in data/README.md
+name: KI3
+flag: 🇨🇳
+country: China
+website: http://ki3.org.cn/
+category: research
+status: active
+rdns:
+- measurements.ki3.org.cn
+ipv4:
+- asn: AS37963
+  isp: Addresses CNNIC
+  org: Aliyun Computing Co., LTD
+  country: CN
+  ip:
+  - '112.74.38.239'
+- asn: AS37963
+  isp: Alibaba (US) Technology Co
+  org: Aliyun Computing Co., LTD
+  country: CN
+  ip:
+  - '101.132.145.132'
+- asn: AS45102
+  isp: Alibaba Cloud LLC
+  org: ALICLOUD-UAE
+  country: AE
+  ip:
+  - '47.91.125.252'
+- asn: AS45102
+  isp: Alibaba.com Singapore E-Commerce Private Limited
+  country: DE
+  ip:
+  - '8.209.96.179'
+- asn: AS45102
+  isp: Alibaba.com Singapore E-Commerce Private Limited
+  org: Aliyun Computing Co.
+  country: GB
+  ip:
+  - '8.208.10.94'
+- asn: AS45102
+  isp: Alibaba.com LLC
+  org: Hong Kong
+  country: HK
+  ip:
+  - '8.210.123.17'
+- asn: AS45102
+  isp: Alibaba (US) Technology Co., Ltd.
+  org: Alibaba.com Singapore E-Commerce Private Limited
+  country: JP
+  ip:
+  - '8.211.162.45'
+- asn: AS45102
+  isp: Alibaba.com LLC
+  org: ALICLOUD-US
+  country: US
+  ip:
+  - '47.89.154.16'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/ki3.nft
+updated: '2026-10-31'

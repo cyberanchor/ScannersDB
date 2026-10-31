@@ -1,0 +1,19 @@
+# ScannersDB record; fields are described in data/README.md
+name: Stony Brook University
+legal_entity: The State University of New York at Stony Brook
+flag: 🇺🇸
+country: United States
+website: https://www.stonybrook.edu/
+category: university
+status: active
+asn: [AS5719]
+ipv4:
+- asn: AS5719
+  isp: State University of New York at Stony Brook
+  org: State University of New York at Stony Brook
+  country: US
+  ip:
+  - '130.245.42.162'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

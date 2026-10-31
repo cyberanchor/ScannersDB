@@ -1,0 +1,42 @@
+# ScannersDB record; fields are described in data/README.md
+name: Technical University of Munich
+legal_entity: Technische Universität München
+flag: 🇩🇪
+country: Germany
+website: https://www.tum.de/
+category: university
+status: active
+asn: [AS209335]
+ipv4:
+- asn: AS12816
+  isp: Leibniz-Rechenzentrum
+  org: Technische Universitaet Muenchen
+  country: DE
+  ip:
+  - '138.246.253.0/24'
+- asn: AS63949
+  isp: LINODE
+  org: Linode, LLC
+  country: SG
+  ip:
+  - '139.162.29.117'
+- asn: AS209335
+  isp: Technical University of Munich
+  country: DE
+  ip:
+  - '131.159.24.205'
+ipv6:
+- asn: AS12816
+  isp: Leibniz-Rechenzentrum
+  country: DE
+  ip:
+  - '2001:4ca0:108::/48'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode
+  country: US
+  ip:
+  - '2600:3c00::f03c:91ff:fe3b:d2d'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

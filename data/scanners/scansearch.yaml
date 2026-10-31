@@ -1,0 +1,17 @@
+# ScannersDB record; fields are described in data/README.md
+name: ScanSearch
+website: https://scansearch.net/
+category: search-engine
+status: active
+note: No PTR records.
+ipv4:
+- asn: AS49870
+  isp: HostUS
+  org: HostUS Solutions LLC
+  country: NL
+  ip:
+  - '160.119.76.40'
+  - '160.119.76.42'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

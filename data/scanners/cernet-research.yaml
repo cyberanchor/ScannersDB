@@ -1,0 +1,18 @@
+# ScannersDB record; fields are described in data/README.md
+name: CERNET research scanner (202.112.47.x)
+flag: 🇨🇳
+country: China
+category: research
+status: active
+note: Two addresses in CERNET (China Education and Research Network) whose pages say "for research"; the institution is not named.
+ipv4:
+- asn: AS4538
+  isp: China Education and Research Network
+  org: CERNET
+  country: CN
+  ip:
+  - '202.112.47.54'
+  - '202.112.47.150'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

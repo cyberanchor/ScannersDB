@@ -1,0 +1,21 @@
+# ScannersDB record; fields are described in data/README.md
+name: RWTH Aachen University
+legal_entity: Rheinisch-Westfälische Technische Hochschule Aachen
+flag: 🇩🇪
+country: Germany
+website: https://www.rwth-aachen.de/
+category: university
+status: active
+asn: [AS47610]
+rdns:
+- researchscan*.comsys.rwth-aachen.de
+ipv4:
+- asn: AS47610
+  isp: RWTH Aachen University
+  org: RWTH Aachen University
+  country: DE
+  ip:
+  - '137.226.113.0/26'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

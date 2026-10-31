@@ -1,0 +1,41 @@
+# ScannersDB record; fields are described in data/README.md
+name: Tencent Cloud
+legal_entity: Tencent Cloud Computing (Beijing) Co., Ltd.
+flag: 🇨🇳
+country: China
+website: https://www.tencentcloud.com/
+category: cloud
+status: active
+asn: [AS45090, AS132203]
+note: Whole Tencent Cloud ranges (also Aceville Pte, Singapore) that PublicGuard lists as Chinese collectors, plus the ranges PublicGuard put under ZoomEye and FOFA. They hold ordinary cloud customers too and are left out of the combined lists.
+ipv4:
+- asn: AS45090
+  isp: Shenzhen Tencent Computer Systems Company Limited
+  org: Tencent Cloud Computing (Beijing) Co., Ltd
+  country: CN
+  ip:
+  - '118.24.0.0/13'
+- asn: AS132203
+  isp: ComsenzNet
+  org: Tencent cloud computing (Beijing) Co., Ltd.
+  country: HK
+  ip:
+  - '119.28.0.0/16'
+- asn: AS132203
+  isp: Aceville Pte.ltd
+  country: SG
+  ip:
+  - '150.109.0.0/16'
+- asn: AS139341
+  isp: ACE
+  country: SG
+  ip:
+  - '43.159.95.15'
+- isp: Tencent Cloud Computing (Beijing) Co
+  country: RU
+  ip:
+  - '162.62.0.0/16'
+sources:
+- https://github.com/cleverg0d/PublicGuard/blob/main/scanners_list.txt
+- https://github.com/cleverg0d/PublicGuard/pull/1
+updated: '2026-10-31'

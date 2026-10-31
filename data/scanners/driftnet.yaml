@@ -1,0 +1,113 @@
+# ScannersDB record; fields are described in data/README.md
+name: Driftnet (internet-measurement.com)
+legal_entity: Driftnet Ltd (SecurityScorecard, Inc.)
+flag: 🇬🇧
+country: United Kingdom
+website: https://driftnet.io/
+category: search-engine
+status: active
+asn: [AS211298]
+rdns:
+- '*.internet-measurement.com'
+user_agents:
+- Mozilla/5.0 (compatible; InternetMeasurement/1.0; +https://internet-measurement.com/)
+opt_out: https://internet-measurement.com/
+note: Formerly cyber.casa. AS211298 is registered to Driftnet Ltd (UK, some networks to Constantine Cybersecurity Ltd); the driftnet.io site and the AS contact address belong to SecurityScorecard.
+ipv4:
+- asn: AS14061
+  isp: DigitalOcean, LLC
+  org: Digital Ocean
+  country: NL
+  ip:
+  - '188.166.26.88'
+- asn: AS14061
+  isp: DigitalOcean, LLC
+  org: DigitalOcean, LLC
+  country: NL
+  ip:
+  - '104.248.203.191'
+  - '104.248.204.195'
+  - '167.99.209.184'
+  - '206.189.7.178'
+- asn: AS14061
+  isp: DigitalOcean, LLC
+  org: Digital Ocean
+  country: US
+  ip:
+  - '45.55.151.3'
+  - '45.55.153.86'
+  - '45.55.158.168'
+  - '45.55.185.224'
+  - '45.55.186.92'
+  - '107.170.65.169'
+  - '162.243.114.171'
+  - '162.243.116.182'
+  - '162.243.208.127'
+  - '167.99.234.119'
+- asn: AS14061
+  isp: DigitalOcean, LLC
+  org: DigitalOcean, LLC
+  country: US
+  ip:
+  - '64.227.99.138'
+  - '64.227.108.146'
+  - '64.227.109.89'
+  - '64.227.110.161'
+  - '68.183.53.77'
+  - '128.199.8.140'
+  - '142.93.191.98'
+  - '157.245.216.203'
+  - '157.245.243.118'
+  - '157.245.245.246'
+  - '159.65.216.50'
+  - '159.65.219.252'
+  - '165.22.39.64'
+  - '192.241.179.235'
+  - '209.97.152.248'
+- asn: AS211298
+  isp: Driftnet Ltd
+  org: Constantine Cybersecurity LTD
+  country: GB
+  ip:
+  - '87.236.176.0/24'
+  - '185.247.137.0/24'
+  - '193.163.125.0/24'
+  - '195.96.139.0/24'
+ipv6:
+- asn: AS14061
+  isp: DigitalOcean, LLC
+  org: Digital Ocean
+  country: US
+  ip:
+  - '2604:a880:0:202a::b41:8000/124'
+  - '2604:a880:0:202a::b41:a000/124'
+  - '2604:a880:0:202a::b41:b000/124'
+  - '2604:a880:0:202a::b42:d000/124'
+  - '2604:a880:0:202a::b42:e000/124'
+  - '2604:a880:4:1d0::2fa6:a000/124'
+  - '2604:a880:4:1d0::2fa6:b000/124'
+  - '2604:a880:4:1d0::2fa6:c000/124'
+  - '2604:a880:4:1d0::2fa6:d000/124'
+  - '2604:a880:4:1d0::2fa6:e000/124'
+  - '2604:a880:400:d1::91e4:a000/124'
+  - '2604:a880:400:d1::91e4:b000/124'
+  - '2604:a880:400:d1::91e4:c000/124'
+  - '2604:a880:400:d1::91e4:d000/124'
+  - '2604:a880:400:d1::91e4:e000/124'
+  - '2604:a880:800:14::5633:8000/124'
+  - '2604:a880:800:14::5633:9000/124'
+  - '2604:a880:800:14::5633:a000/124'
+  - '2604:a880:800:14::5633:b000/124'
+  - '2604:a880:800:14::5633:c000/124'
+- asn: AS211298
+  isp: Driftnet Ltd
+  org: Constantine Cybersecurity LTD
+  country: GB
+  ip:
+  - '2a06:4880::/29'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/driftnet.nft
+- https://github.com/Connie-Wild/scanner-ip-list/blob/main/internet-measurement.txt
+- https://github.com/wdes/security/blob/main/data/scanners/internet-measurement.com.txt
+- https://github.com/cleverg0d/PublicGuard/pull/1
+updated: '2026-10-31'

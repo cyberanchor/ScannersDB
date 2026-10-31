@@ -1,0 +1,29 @@
+# ScannersDB record; fields are described in data/README.md
+name: CrowdStrike Falcon Surface
+legal_entity: CrowdStrike, Inc.
+flag: 🇺🇸
+country: United States
+website: https://www.crowdstrike.com/
+category: company
+status: active
+note: Does not identify itself through PTR records; the scanning hosts serve a page naming CrowdStrike Falcon Surface.
+ipv4:
+- asn: AS14618
+  isp: Amazon.com
+  org: AWS EC2 (us-east-1)
+  country: US
+  ip:
+  - '44.220.185.0/24'
+  - '44.220.188.0/24'
+- asn: AS14618
+  isp: Amazon.com, Inc.
+  org: AWS EC2 (us-east-1)
+  country: US
+  ip:
+  - '18.97.5.0/25'
+  - '18.97.19.128/25'
+  - '18.97.26.0/24'
+  - '98.80.4.0/25'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/crowdstrikefalconsurface.nft
+updated: '2026-10-31'

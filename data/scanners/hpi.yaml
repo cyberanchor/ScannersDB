@@ -1,0 +1,18 @@
+# ScannersDB record; fields are described in data/README.md
+name: Hasso Plattner Institute
+legal_entity: Hasso-Plattner-Institut für Digital Engineering gGmbH
+flag: 🇩🇪
+country: Germany
+website: https://hpi.de/
+category: university
+status: active
+ipv4:
+- asn: AS30083
+  isp: velia.net
+  org: velia.net
+  country: US
+  ip:
+  - '148.72.152.210'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

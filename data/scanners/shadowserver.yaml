@@ -1,0 +1,72 @@
+# ScannersDB record; fields are described in data/README.md
+name: The Shadowserver Foundation
+legal_entity: The Shadowserver Foundation, Inc.
+flag: 🇺🇸
+country: United States
+website: https://www.shadowserver.org/
+category: research
+status: active
+asn: [AS22168]
+rdns:
+- '*.shadowserver.org'
+- '*.shadowserver.io'
+note: Non-profit that sends free daily reports on exposed and vulnerable systems to network owners and national CERTs. Blocking it also stops those reports about your own networks.
+ipv4:
+- asn: AS6939
+  isp: Hurricane Electric LLC
+  org: The Shadow Server Foundation
+  country: US
+  ip:
+  - '64.62.156.0/24'
+  - '64.62.195.152/29'
+  - '64.62.200.234/31'
+  - '64.62.200.236/31'
+  - '64.62.200.238'
+  - '64.62.202.98/31'
+  - '64.62.202.100/30'
+  - '64.62.202.104/30'
+  - '64.62.202.108/31'
+  - '64.62.202.110'
+  - '64.62.202.112/30'
+  - '64.62.202.116/31'
+  - '64.62.202.118'
+  - '65.49.1.0/24'
+  - '65.49.20.64/26'
+  - '74.82.47.0/26'
+  - '184.105.139.64/26'
+  - '184.105.247.192/26'
+  - '216.218.206.64/26'
+- asn: AS6939
+  isp: Hurricane Electric LLC
+  org: The Shadowserver Foundation, Inc
+  country: US
+  ip:
+  - '64.62.197.0/24'
+- asn: AS22168
+  isp: The Shadowserver Foundation, Inc.
+  org: The Shadowserver Foundation, Inc.
+  country: US
+  ip:
+  - '199.165.159.0/24'
+ipv6:
+- asn: AS6939
+  isp: Hurricane Electric LLC
+  org: The Shadow Server Foundation
+  country: US
+  ip:
+  - '2001:470:1:332::/64'
+  - '2001:470:1:c84::/64'
+  - '2001:470:1:fb5::/64'
+- asn: AS6939
+  isp: Hurricane Electric LLC
+  org: The Shadowserver Foundation, Inc
+  country: US
+  ip:
+  - '2001:470:2cc::/48'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/shadowserver.nft
+- https://github.com/Connie-Wild/scanner-ip-list/blob/main/shadowserver.txt
+- https://security.wdes.eu/scanners/shadowserver.txt
+- https://github.com/cleverg0d/PublicGuard/blob/main/scanners_list.txt
+- https://github.com/cleverg0d/PublicGuard/pull/1
+updated: '2026-10-31'

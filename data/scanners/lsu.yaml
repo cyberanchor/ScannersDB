@@ -1,0 +1,19 @@
+# ScannersDB record; fields are described in data/README.md
+name: Louisiana State University
+legal_entity: Louisiana State University
+flag: 🇺🇸
+country: United States
+website: https://www.lsu.edu/
+category: university
+status: active
+asn: [AS2055]
+ipv4:
+- asn: AS2055
+  isp: Louisiana State University
+  org: Louisiana State University
+  country: US
+  ip:
+  - '173.253.128.10'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

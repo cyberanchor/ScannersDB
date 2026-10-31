@@ -1,0 +1,90 @@
+# ScannersDB record; fields are described in data/README.md
+name: XMCO Serenety
+legal_entity: XMCO SASU
+flag: 🇫🇷
+country: France
+website: https://www.xmco.fr/
+category: company
+status: active
+user_agents:
+- Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:103.0) Gecko/20100101 Firefox/103.0 abuse.xmco.fr
+- abuse.xmco.fr
+opt_out: https://abuse.xmco.fr/
+note: RCS Paris 430137711. Does not identify itself through PTR records; the addresses redirect to abuse.xmco.fr.
+ipv4:
+- asn: AS12876
+  isp: Online
+  org: Free SAS
+  country: FR
+  ip:
+  - '212.83.184.12/30'
+  - '212.83.184.16/31'
+  - '212.83.184.18'
+- asn: AS12876
+  isp: Online SAS
+  country: FR
+  ip:
+  - '212.129.7.56'
+  - '212.129.7.154'
+  - '212.129.9.141'
+  - '212.129.10.138'
+  - '212.129.10.245'
+- asn: AS12876
+  isp: Online SAS
+  org: Etam S.A.
+  country: FR
+  ip:
+  - '195.154.208.62'
+- asn: AS12876
+  isp: SCALEWAY
+  org: ONLINE
+  country: FR
+  ip:
+  - '51.15.164.26'
+  - '51.15.164.149'
+- asn: AS12876
+  isp: Scaleway SAS
+  org: ONLINE
+  country: FR
+  ip:
+  - '62.210.245.60'
+  - '62.210.245.66'
+  - '163.172.99.21'
+  - '163.172.99.35'
+  - '163.172.99.60'
+  - '163.172.99.85'
+  - '163.172.99.98'
+  - '163.172.109.18'
+  - '195.154.107.13'
+  - '195.154.107.191'
+  - '212.129.53.181'
+- asn: AS15169
+  isp: Google LLC
+  org: Google Cloud (europe-west6)
+  country: CH
+  ip:
+  - '35.216.140.3'
+  - '35.216.140.175'
+  - '35.216.144.195'
+  - '35.216.149.150'
+  - '35.216.150.3'
+  - '35.216.156.249'
+  - '35.216.172.131'
+  - '35.216.183.140'
+  - '35.216.185.210'
+  - '35.216.188.37'
+  - '35.216.189.16'
+  - '35.216.195.77'
+  - '35.216.196.110'
+  - '35.216.197.176'
+  - '35.216.200.253'
+  - '35.216.201.9'
+  - '35.216.216.242'
+  - '35.216.217.192'
+  - '35.216.231.117'
+  - '35.216.236.0'
+  - '35.216.247.217'
+  - '35.216.254.237'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/xmco.nft
+updated: '2026-10-31'

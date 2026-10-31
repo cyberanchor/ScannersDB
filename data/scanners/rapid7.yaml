@@ -1,0 +1,69 @@
+# ScannersDB record; fields are described in data/README.md
+name: Rapid7 Project Sonar
+legal_entity: Rapid7, Inc.
+flag: 🇺🇸
+country: United States
+website: https://opendata.rapid7.com/about/
+category: company
+status: active
+rdns:
+- scanners.labs.rapid7.com
+- scanner*.labs.rapid7.com
+ipv4:
+- asn: AS10439
+  isp: CariNet, Inc.
+  org: Rapid7 Labs - Traffic originating from this network is expected and part of Project Sonar opendata.rapid7.com/about
+  country: US
+  ip:
+  - '71.6.233.0/24'
+- asn: AS13213
+  isp: UK-2 Limited
+  org: Rapid7Labs
+  country: GB
+  ip:
+  - '88.202.190.128/27'
+- asn: AS13213
+  isp: UK2.NET
+  country: GB
+  ip:
+  - '109.123.117.224/27'
+- asn: AS29302
+  isp: Hosting Services Inc
+  org: '100TB'
+  country: GB
+  ip:
+  - '146.185.25.160/27'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode
+  country: US
+  ip:
+  - '45.79.190.10'
+  - '66.175.212.77'
+  - '66.228.41.127'
+  - '69.164.209.193'
+  - '173.255.225.139'
+  - '173.255.229.50'
+- isp: '100TB'
+  country: GB
+  ip:
+  - '5.63.151.96/27'
+ipv6:
+- asn: AS10439
+  isp: CariNet, Inc.
+  org: Rapid7 Labs - Traffic originating this network is expected and part of Rapi
+  country: US
+  ip:
+  - '2607:ff10:c5:522::/64'
+- asn: AS13213
+  isp: UK-2 Limited
+  org: Rapid7Labs
+  country: GB
+  ip:
+  - '2a02:2498:e004:23::/64'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/rapid7.nft
+- https://github.com/Connie-Wild/scanner-ip-list/blob/main/rapid7.txt
+- https://github.com/cleverg0d/PublicGuard/blob/main/scanners_list.txt
+- https://github.com/cleverg0d/PublicGuard/pull/1
+updated: '2026-10-31'

@@ -1,0 +1,23 @@
+# ScannersDB record; fields are described in data/README.md
+name: slowstack
+website: https://slowstack.tv/
+category: hobby
+status: inactive
+note: Minecraft server scanner; the site says slowstack has shut down (checked 2026-10-31).
+ipv4:
+- asn: AS12876
+  isp: SCALEWAY
+  org: ONLINE
+  country: FR
+  ip:
+  - '51.159.110.167'
+  - '51.159.149.103'
+- asn: AS51396
+  isp: Pfcloud UG
+  org: Intelligence Hosting LLC
+  country: NL
+  ip:
+  - '204.76.203.4'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

@@ -1,0 +1,15 @@
+# ScannersDB record; fields are described in data/README.md
+name: '"About this DNS measurement traffic"'
+category: unknown
+status: active
+note: One address without PTR that serves a page titled "About this DNS measurement traffic".
+ipv4:
+- asn: AS45102
+  isp: Alibaba Cloud LLC
+  org: Alibaba Cloud - US
+  country: US
+  ip:
+  - '47.253.116.19'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

@@ -1,0 +1,41 @@
+# ScannersDB record; fields are described in data/README.md
+name: F6
+legal_entity: ООО «Ф6» (F6 LLC)
+flag: 🇷🇺
+country: Russia
+website: https://www.f6.ru/
+category: company
+status: active
+rdns:
+- scan.f6.security
+note: The former Russian business of Group-IB, called F.A.C.C.T. from 2023 and renamed F6 in 2024.
+ipv4:
+- asn: AS34665
+  isp: Petersburg Internet Network ltd
+  org: PIN DC
+  country: RU
+  ip:
+  - '5.101.64.6/31'
+  - '46.161.50.108/31'
+- asn: AS44050
+  isp: PIN-DATACENTER
+  country: RU
+  ip:
+  - '95.215.0.144/31'
+- asn: AS197834
+  isp: Ucom CJSC
+  org: Interactive TV LLC
+  country: AM
+  ip:
+  - '176.32.195.85'
+- asn: AS214664
+  isp: JSC Buduschee
+  org: TopTeleCom LLC
+  country: RU
+  ip:
+  - '45.91.64.6/31'
+  - '45.91.64.8'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+- https://github.com/cleverg0d/PublicGuard/pull/1
+updated: '2026-10-31'

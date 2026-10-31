@@ -1,0 +1,26 @@
+# ScannersDB record; fields are described in data/README.md
+name: ScanOpticon
+website: https://optout.scanopticon.com/
+category: unknown
+status: inactive
+rdns:
+- optout.scanopticon.com
+note: Gone; OpenFilters keeps its last list as inactive.
+ipv4:
+- asn: AS63949
+  isp: Akamai Technologies
+  org: Linode
+  country: DE
+  ip:
+  - '172.104.138.223'
+  - '172.104.238.162'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode
+  country: DE
+  ip:
+  - '139.162.190.203'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/inactive/scanopticon.nft
+- https://github.com/Connie-Wild/scanner-ip-list/blob/main/scanopticon.txt
+updated: '2026-10-31'

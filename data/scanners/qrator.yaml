@@ -1,0 +1,20 @@
+# ScannersDB record; fields are described in data/README.md
+name: Qrator.Radar
+legal_entity: Qrator Labs CZ s.r.o.
+flag: 🇨🇿
+country: Czechia
+website: https://radar.qrator.net/
+category: company
+status: active
+rdns:
+- scanner.radar.qrator.net
+ipv4:
+- asn: AS51115
+  isp: HLL LLC
+  org: Radar Scanner
+  country: RU
+  ip:
+  - '185.94.111.1'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

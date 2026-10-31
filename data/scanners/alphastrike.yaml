@@ -1,0 +1,46 @@
+# ScannersDB record; fields are described in data/README.md
+name: Alpha Strike Labs
+legal_entity: Alpha Strike Labs GmbH
+flag: 🇩🇪
+country: Germany
+website: https://www.alphastrike.io/
+category: company
+status: active
+asn: [AS42969, AS208843]
+note: Does not identify itself through PTR records.
+ipv4:
+- asn: AS25504
+  isp: Vautron Rechenzentrum AG
+  org: Alphastrike
+  country: DE
+  ip:
+  - '109.235.58.224/27'
+- asn: AS42969
+  isp: Alpha Strike Labs GmbH
+  org: Alpha Strike Labs GmbH
+  country: US
+  ip:
+  - '158.94.187.0/24'
+  - '158.94.218.0/24'
+- asn: AS208843
+  isp: Alpha Strike Labs GmbH
+  country: DE
+  ip:
+  - '194.187.176.0/22'
+- asn: AS208843
+  isp: Alpha Strike Labs GmbH
+  org: Alpha Strike Labs GmbH
+  country: DE
+  ip:
+  - '45.83.64.0/22'
+ipv6:
+- asn: AS29014
+  isp: ScaleUp Technologies GmbH & Co. KG
+  country: DE
+  ip:
+  - '2a0e:7b84::/30'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/alphastrike.nft
+- https://github.com/Connie-Wild/scanner-ip-list/blob/main/alphastrike.txt
+- https://github.com/cleverg0d/PublicGuard/pull/1
+updated: '2026-10-31'

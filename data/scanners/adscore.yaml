@@ -1,0 +1,35 @@
+# ScannersDB record; fields are described in data/README.md
+name: Adscore
+legal_entity: Adscore Technologies DMCC
+flag: 🇦🇪
+country: United Arab Emirates
+website: https://www.adscore.com/
+category: company
+status: active
+rdns:
+- '*.adscore.com'
+note: Ad fraud detection company.
+ipv4:
+- asn: AS9009
+  isp: M247 Europe SRL
+  org: M247 LTD
+  country: GB
+  ip:
+  - '185.200.118.32'
+  - '185.200.118.34/31'
+  - '185.200.118.36/30'
+  - '185.200.118.40/29'
+  - '185.200.118.48/29'
+  - '185.200.118.56/30'
+  - '185.200.118.60'
+  - '185.200.118.63'
+  - '185.200.118.64'
+  - '185.200.118.66/31'
+  - '185.200.118.68/30'
+  - '185.200.118.72/29'
+  - '185.200.118.80/29'
+  - '185.200.118.88/30'
+  - '185.200.118.92'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/adscore.nft
+updated: '2026-10-31'

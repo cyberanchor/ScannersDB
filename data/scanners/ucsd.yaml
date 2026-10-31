@@ -1,0 +1,19 @@
+# ScannersDB record; fields are described in data/README.md
+name: University of California San Diego
+legal_entity: The Regents of the University of California
+flag: 🇺🇸
+country: United States
+website: https://ucsd.edu/
+category: university
+status: active
+asn: [AS7377]
+ipv4:
+- asn: AS7377
+  isp: University of California, San Diego
+  org: University of California, San Diego
+  country: US
+  ip:
+  - '169.228.66.212'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

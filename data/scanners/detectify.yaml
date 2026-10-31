@@ -1,0 +1,54 @@
+# ScannersDB record; fields are described in data/README.md
+name: Detectify
+legal_entity: Detectify AB
+flag: 🇸🇪
+country: Sweden
+website: https://detectify.com/
+category: company
+status: active
+rdns:
+- scanner.detectify.com
+user_agents:
+- Mozilla/5.0 (compatible; Detectify)
+note: Scans the assets of its customers; part of the addresses has no PTR record.
+ipv4:
+- asn: AS14618
+  isp: Amazon.com, Inc.
+  org: AWS EC2 (us-east-1)
+  country: US
+  ip:
+  - '34.234.177.119'
+  - '107.20.158.220'
+- asn: AS14618
+  isp: Amazon Technologies Inc.
+  org: AWS EC2 (us-east-1)
+  country: US
+  ip:
+  - '3.234.180.95'
+- asn: AS16509
+  isp: Amazon.com
+  org: AWS EC2 (eu-west-1)
+  country: IE
+  ip:
+  - '63.32.130.39'
+- asn: AS16509
+  isp: Amazon.com, Inc.
+  org: AWS EC2 (eu-west-1)
+  country: IE
+  ip:
+  - '52.17.9.21'
+  - '52.17.98.131'
+  - '52.208.235.127'
+  - '54.73.182.190'
+- asn: AS16509
+  isp: Amazon Technologies Inc
+  org: AWS EC2 (ap-south-1)
+  country: IN
+  ip:
+  - '3.7.157.159'
+  - '3.7.173.162'
+  - '13.126.5.12'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/detectify.nft
+- https://github.com/cleverg0d/PublicGuard/pull/1
+updated: '2026-10-31'

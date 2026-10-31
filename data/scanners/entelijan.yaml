@@ -1,0 +1,18 @@
+# ScannersDB record; fields are described in data/README.md
+name: Entelijan
+legal_entity: Entelijan Inc.
+website: https://entelijan.com/
+category: company
+status: active
+rdns:
+- scanner-*.entelijan.com
+ipv4:
+- asn: AS23470
+  isp: ReliableSite.Net LLC
+  org: Entelijan Inc
+  country: US
+  ip:
+  - '192.158.140.0/24'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

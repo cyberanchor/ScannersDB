@@ -1,0 +1,62 @@
+# ScannersDB record; fields are described in data/README.md
+name: Group-IB
+legal_entity: Group-IB Global Private Limited
+flag: 🇸🇬
+country: Singapore
+website: https://www.group-ib.com/
+category: company
+status: active
+rdns:
+- rnd.group-ib.com
+- asm.group-ib.com
+ipv4:
+- asn: AS202425
+  isp: IP Volume inc
+  org: IP Volume inc
+  country: NL
+  ip:
+  - '80.82.65.153'
+  - '80.82.70.40'
+  - '80.82.70.118'
+  - '80.82.70.133'
+  - '80.82.70.198'
+  - '80.82.70.228'
+  - '80.82.70.232'
+  - '80.82.77.202'
+  - '80.82.78.39'
+  - '93.174.93.12'
+  - '93.174.93.34'
+  - '93.174.93.114'
+  - '94.102.48.13'
+  - '94.102.48.14/31'
+  - '94.102.49.123'
+  - '94.102.49.128'
+  - '94.102.49.206'
+  - '94.102.49.210'
+  - '94.102.52.28/31'
+  - '94.102.52.30'
+  - '94.102.52.77'
+- asn: AS202425
+  isp: IP Volume inc
+  org: Quasi Networks LTD.
+  country: NL
+  ip:
+  - '89.248.172.9'
+  - '89.248.172.10/31'
+  - '89.248.172.12'
+  - '89.248.172.14'
+  - '89.248.172.33'
+- asn: AS202425
+  isp: IP Volume inc
+  org: Quasi Networks LTD.
+  country: PL
+  ip:
+  - '89.248.171.23'
+  - '89.248.171.24'
+  - '94.102.63.23'
+  - '94.102.63.27'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/groupib.nft
+- https://github.com/Connie-Wild/scanner-ip-list/blob/main/group-ib.txt
+- https://github.com/cleverg0d/PublicGuard/pull/1
+updated: '2026-10-31'

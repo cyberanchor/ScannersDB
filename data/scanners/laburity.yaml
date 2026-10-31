@@ -1,0 +1,17 @@
+# ScannersDB record; fields are described in data/README.md
+name: Laburity
+legal_entity: Laburity Ltd
+website: https://laburity.com/
+category: company
+status: active
+note: Pages titled "laburityreports.com Security Research Notice"; no PTR record.
+ipv4:
+- asn: AS51167
+  isp: Contabo GmbH
+  org: Contabo GmbH
+  country: FR
+  ip:
+  - '5.189.167.246'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

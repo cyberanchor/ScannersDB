@@ -1,0 +1,31 @@
+# ScannersDB record; fields are described in data/README.md
+name: University of Maryland
+legal_entity: University of Maryland, College Park
+flag: 🇺🇸
+country: United States
+website: https://umd.edu/
+category: university
+status: active
+asn: [AS27]
+ipv4:
+- asn: AS27
+  isp: University of Maryland
+  org: University of Maryland
+  country: US
+  ip:
+  - '128.8.124.68'
+- asn: AS14061
+  isp: DigitalOcean, LLC
+  org: DigitalOcean, LLC
+  country: GB
+  ip:
+  - '144.126.196.115'
+- asn: AS14061
+  isp: DigitalOcean, LLC
+  org: DigitalOcean, LLC
+  country: US
+  ip:
+  - '134.209.63.62'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

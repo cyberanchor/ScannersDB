@@ -1,0 +1,19 @@
+# ScannersDB record; fields are described in data/README.md
+name: Edgewatch
+flag: 🇪🇸
+country: Spain
+website: https://edgewatch.com/
+category: company
+status: active
+rdns:
+- '*.edgewatch.com'
+ipv4:
+- asn: AS197183
+  isp: Occentus Network SL
+  org: Edgewatch Security Intelligence
+  country: ES
+  ip:
+  - '185.114.175.0/24'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/edgewatch.nft
+updated: '2026-10-31'

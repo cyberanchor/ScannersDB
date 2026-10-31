@@ -1,0 +1,16 @@
+# ScannersDB record; fields are described in data/README.md
+name: BarkScan
+website: https://barkscan.com/
+category: search-engine
+status: active
+note: Does not identify itself through PTR records.
+ipv4:
+- asn: AS43350
+  isp: NFOrce Entertainment BV
+  org: NForce Entertainment B.V
+  country: FR
+  ip:
+  - '185.107.80.93'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

@@ -1,0 +1,26 @@
+# ScannersDB record; fields are described in data/README.md
+name: FH Münster
+legal_entity: FH Münster University of Applied Sciences
+flag: 🇩🇪
+country: Germany
+website: https://www.fh-muenster.de/
+category: university
+status: active
+ipv4:
+- asn: AS680
+  isp: Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.
+  org: Fachhochschule Muenster
+  country: DE
+  ip:
+  - '193.174.89.19'
+ipv6:
+- asn: AS680
+  isp: Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.
+  org: FH Muenster
+  country: DE
+  ip:
+  - '2a02:c6a0:4001:b000::ff'
+  - '2a02:c6a0:4001:b000:dead::99ae'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

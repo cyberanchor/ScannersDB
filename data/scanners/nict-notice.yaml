@@ -1,0 +1,39 @@
+# ScannersDB record; fields are described in data/README.md
+name: NOTICE (NICT)
+legal_entity: National Institute of Information and Communications Technology
+flag: 🇯🇵
+country: Japan
+website: https://notice.go.jp/
+category: government
+status: active
+note: Japanese government project that looks for IoT devices with weak passwords and notifies their ISPs.
+ipv4:
+- asn: AS2527
+  isp: So-net Corporation
+  org: So-net Corporation
+  country: JP
+  ip:
+  - '223.135.152.48/28'
+- asn: AS2527
+  isp: Sony Network Communications Inc
+  org: Sony Network Communications Inc.
+  country: JP
+  ip:
+  - '39.110.250.232/29'
+  - '118.238.5.24/29'
+  - '150.249.227.160/28'
+- asn: AS4713
+  isp: NTT Communications Corporation
+  org: Open Computer Network
+  country: JP
+  ip:
+  - '153.231.215.8/29'
+  - '153.231.216.176/28'
+  - '153.231.216.216/29'
+  - '153.231.226.160/28'
+  - '153.231.227.192/29'
+  - '153.231.227.208/28'
+  - '153.231.227.224/29'
+sources:
+- https://github.com/Connie-Wild/scanner-ip-list/blob/main/notice.txt
+updated: '2026-10-31'

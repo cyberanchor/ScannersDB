@@ -1,0 +1,19 @@
+# ScannersDB record; fields are described in data/README.md
+name: Stanford University
+legal_entity: The Board of Trustees of the Leland Stanford Junior University
+flag: 🇺🇸
+country: United States
+website: https://www.stanford.edu/
+category: university
+status: active
+asn: [AS32]
+ipv4:
+- asn: AS32
+  isp: Stanford University
+  org: Stanford University - Durumeric
+  country: US
+  ip:
+  - '171.67.70.0/23'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

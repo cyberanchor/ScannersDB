@@ -1,0 +1,18 @@
+# ScannersDB record; fields are described in data/README.md
+name: pocnroll
+website: https://pocnroll.com/
+category: research
+status: active
+rdns:
+- research.pocnroll.com
+opt_out: network-research@protonmail.com
+ipv4:
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode
+  country: US
+  ip:
+  - '45.79.38.219'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/pocnroll.nft
+updated: '2026-10-31'

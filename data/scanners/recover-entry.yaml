@@ -1,0 +1,16 @@
+# ScannersDB record; fields are described in data/README.md
+name: scan.recover-entry.online
+category: unknown
+status: active
+rdns:
+- scan.recover-entry.online
+ipv4:
+- asn: AS14061
+  isp: DigitalOcean, LLC
+  org: Digital Ocean
+  country: US
+  ip:
+  - '107.170.75.78'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

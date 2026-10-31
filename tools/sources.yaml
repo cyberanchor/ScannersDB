@@ -1,0 +1,276 @@
+# Upstream lists merged into data/scanners/ by tools/import_sources.py.
+#
+# Each source says where it is downloaded from, how it is read (format) and which record each list feeds.
+# A record id is the file name in data/scanners/ without .yaml. Lists that are not mapped get the file name as id.
+# `link` is the page written to the record's `sources` field ({file} is the file inside the repository).
+
+sources:
+
+  openfilters:
+    name: OpenFilters/internet-scanners
+    home: https://github.com/OpenFilters/internet-scanners
+    license: Unlicense (public domain)
+    download: https://codeload.github.com/OpenFilters/internet-scanners/tar.gz/refs/heads/main
+    format: openfilters             # <name>.nft (active) and inactive/<name>.nft, with `define <name>_v4/_v6 = {}`
+    link: https://github.com/OpenFilters/internet-scanners/blob/main/{file}
+    files:                          # file name without .nft -> record id, when they differ
+      bufferoverrun: bufferover
+      crowdstrikefalconsurface: crowdstrike
+      deepfield: nokia-deepfield
+      groupib: group-ib
+      mandiantasm: mandiant
+      odin: cyble-odin
+      quake: 360-quake
+      strechoid: stretchoid
+      tenableasm: tenable
+    groups:                         # files that hold several organisations, one comment line before each
+      universities:                 # first matching text (lowercase) wins
+        - [cambridge, cambridge]
+        - [usc/isi, usc-isi]
+        - [southern california, usc-isi]
+        - [technical university of munich, tum]
+        - [santa barbara, ucsb]
+        - [university of california, ucsd]
+        - [stanford, stanford]
+        - [ruhr, rub]
+        - [muenster, fh-muenster]
+        - [virginia tech, virginia-tech]
+        - [georgia institute, gatech]
+        - [max planck, mpi-inf]
+        - [dresden, tu-dresden]
+        - [rwth, rwth-aachen]
+        - [university of michigan, umich]
+        - [louisiana, lsu]
+        - [maryland, umd]
+        - [paderborn, paderborn]
+        - [twente, utwente]
+        - [augsburg, th-augsburg]
+        - [technical university of denmark, dtu]
+        - [leuven, kuleuven]
+        - [vienna, univie]
+        - [esslingen, hs-esslingen]
+        - [hasso plattner, hpi]
+        - [milan, polimi]
+        - [stony brook, stonybrook]
+        - [tsinghua, tsinghua]
+      other:
+        - [benign.internet.survey.scan, internet-survey-scan]
+        - [proper.com, proper]
+        - [dataprovider.com, dataprovider]
+        - [matscan, matscan]
+        - [b621.net, b621]
+        - [global network asset distribution dashboard, global-network-asset-dashboard]
+        - [kittyscan, kittyscan]
+        - [f6.security, f6]
+        - [202.112.47, cernet-research]
+        - [ipgeolocation.io, ipgeolocation]
+        - [slowstack, slowstack]
+        - [scansearch.net, scansearch]
+        - [team cymru, team-cymru]
+        - [internetresearch.center, internetresearch-center]
+        - [barkscan, barkscan]
+        - [entelijan, entelijan]
+        - [ping-dash.com, ping-dash]
+        - [iptruth, iptruth]
+        - [laburityreports, laburity]
+        - [cyberscan.io, cyberscan]
+        - [recover-entry.online, recover-entry]
+        - [dns measurement traffic, dns-measurement-notice]
+        - [qrator, qrator]
+        - [mcdb.app, mcdb]
+        - [security research traffic notice, security-research-notice]
+        - [ipv6 scan, ipv6-scan-notice]
+
+  connie-wild:
+    name: Connie-Wild/scanner-ip-list
+    home: https://github.com/Connie-Wild/scanner-ip-list
+    license: none stated
+    download: https://codeload.github.com/Connie-Wild/scanner-ip-list/tar.gz/refs/heads/main
+    format: lists                   # <name>.txt, one network per line, `# host pattern` lines between groups
+    link: https://github.com/Connie-Wild/scanner-ip-list/blob/main/{file}
+    files:
+      group-ib: group-ib
+      internet-census: bitsight
+      internet-measurement: driftnet
+      notice: nict-notice
+      umich: umich
+      xpanse: paloaltonetworks
+
+  wdes:
+    name: wdes/security
+    home: https://github.com/wdes/security
+    license: MPL-2.0
+    download: https://codeload.github.com/wdes/security/tar.gz/refs/heads/main
+    format: lists
+    link: https://github.com/wdes/security/blob/main/{file}
+    only:                           # only these files; the repository also holds non-scanner collections
+      data/scanners/anssi.txt: anssi
+      data/scanners/binaryedge_api_ips.txt: binaryedge
+      data/scanners/censys.txt: censys
+      data/scanners/internet-measurement.com.txt: driftnet
+
+  wdes-live:                        # lists that snow-scanner builds from reverse DNS; they are not in the repository
+    name: security.wdes.eu
+    home: https://security.wdes.eu/
+    license: MPL-2.0
+    download:
+      stretchoid: https://security.wdes.eu/scanners/stretchoid.txt
+      binaryedge: https://security.wdes.eu/scanners/binaryedge.txt
+      shadowserver: https://security.wdes.eu/scanners/shadowserver.txt
+    format: lists
+    link: https://security.wdes.eu/scanners/{file}.txt
+
+  publicguard:
+    name: cleverg0d/PublicGuard
+    home: https://github.com/cleverg0d/PublicGuard
+    license: MIT (stated in the README)
+    download: https://raw.githubusercontent.com/cleverg0d/PublicGuard/main/scanners_list.txt
+    format: sections                # `# --- Name ---` or `# Name` before each group
+    link: https://github.com/cleverg0d/PublicGuard/blob/main/scanners_list.txt
+    sections: &pg_sections          # first matching text (lowercase) wins
+      - [shodan, shodan]
+      - [censys, censys]
+      - [zoomeye, zoomeye]
+      - [fofa, fofa]
+      - [binaryedge, binaryedge]
+      - [shadowserver, shadowserver]
+      - [rapid7, rapid7]
+      - [baidu, baidu]
+      - [tencent, tencent-cloud]
+      - [alibaba, alibaba-cloud]
+      - [cypex, cypex]
+      - [f6.security, f6]
+      - [forschungsnetzes, mpi-inf]
+      - [onyphe, onyphe]
+      - [palo alto, paloaltonetworks]
+      - [groupib, group-ib]
+      - [driftnet, driftnet]
+      - [tenable, tenable]
+      - [detectify, detectify]
+      - [modat, modat]
+      - [ipip, ipip]
+      - [cyberresilience, cyberresilience]
+      - [leakix, leakix]
+      - [alpha strike, alphastrike]
+
+  publicguard-pr1:
+    name: cleverg0d/PublicGuard pull request 1
+    home: https://github.com/cleverg0d/PublicGuard/pull/1
+    license: MIT (stated in the README)
+    download: https://raw.githubusercontent.com/cleverg0d/PublicGuard/refs/pull/1/head/scanners_list.txt
+    format: sections
+    link: https://github.com/cleverg0d/PublicGuard/pull/1
+    sections: *pg_sections
+
+  # Lists published by the scanner operators themselves.
+
+  binaryedge-api:
+    name: BinaryEdge API
+    home: https://api.binaryedge.io/v1/minions
+    download:
+      v4: https://api.binaryedge.io/v1/minions
+      v6: https://api.binaryedge.io/v1/minions-ipv6
+    format: json
+    paths: [scanners]
+    record: binaryedge
+    link: https://api.binaryedge.io/v1/minions
+
+  leakix:
+    name: LeakIX scanner list
+    home: https://scan.leakix.net/
+    download: https://scan.leakix.net/json
+    format: json
+    paths: ["probes[].ipv4", "probes[].ipv6"]
+    record: leakix
+    link: https://scan.leakix.net/
+
+  onyphe:
+    name: ONYPHE IP ranges
+    home: https://www.onyphe.com/ip-ranges.txt
+    download: https://www.onyphe.com/ip-ranges.txt
+    format: lists
+    record: onyphe
+    link: https://www.onyphe.com/ip-ranges.txt
+
+  modat:
+    name: Modat scanner ranges
+    home: https://scanner.modat.io/
+    download: https://scanner.modat.io/ipv4.txt
+    format: lists
+    record: modat
+    link: https://scanner.modat.io/ipv4.txt
+
+  tenable:
+    name: Tenable cloud scanner ranges
+    home: https://docs.tenable.com/ip-ranges/data.json
+    download: https://docs.tenable.com/ip-ranges/data.json
+    format: json
+    paths: ["prefixes[].ip_prefix", "ipv6_prefixes[].ipv6_prefix", "fedramp_prefixes[].ip_prefix",
+            "fedramp_ipv6_prefixes[].ipv6_prefix"]
+    record: tenable
+    link: https://docs.tenable.com/ip-ranges/data.json
+
+  tenable-asm:
+    name: Tenable Attack Surface Management ranges
+    home: https://docs.tenable.com/ip-ranges/asm/data.json
+    download: https://docs.tenable.com/ip-ranges/asm/data.json
+    format: json
+    paths: ["prefixes[].ip_prefix", "ipv6_prefixes[].ipv6_prefix"]
+    record: tenable
+    link: https://docs.tenable.com/ip-ranges/asm/data.json
+
+# Networks an upstream list puts under the wrong organisation or writes with a wrong prefix length. They are left out
+# of that record (drop), put into another one (move) or written as the networks in `with` (replace). `net` matches
+# the network as it is read (host bits cleared) and every network inside it. `source` limits a rule to some sources
+# (shell pattern). data/README.md lists these rules.
+rules:
+  - {record: mandiant, net: 34.19.127.160/27, source: openfilters, action: replace, with: 34.19.127.176/28,
+     why: "written 34.19.127.176/27 upstream; the Mandiant page lists 34.19.127.176/28"}
+  - {record: alibaba-cloud, net: 47.234.0.0/15, source: publicguard*, action: replace, with: [47.235.0.0/16, 47.236.0.0/16],
+     why: "written 47.235.0.0/15, which is not a network; 47.234.0.0/16 belongs to Charter Communications, Alibaba Cloud LLC starts at 47.235.0.0"}
+  - {record: tencent-cloud, net: 162.62.0.0/15, source: publicguard*, action: replace, with: 162.62.0.0/16,
+     why: "162.63.0.0/16 belongs to UBS AG; only 162.62.0.0/16 is Tencent Cloud (Aceville Pte)"}
+  - {record: tencent-cloud, net: 45.197.79.0/24, source: publicguard*, action: drop,
+     why: "registered to Bedge Co (AS63139, Korea), not Tencent"}
+  - {record: tencent-cloud, net: 45.201.0.0/16, source: publicguard*, action: drop,
+     why: "registered to NZ Network Enterprise (AS147176, Thailand), not Tencent"}
+  - {record: tencent-cloud, net: 156.240.62.0/24, source: publicguard*, action: drop,
+     why: "Cloud Innovation / Larus (AS17561), an address leasing company, not Tencent"}
+  - {record: detectify, net: 103.203.57.0/24, source: publicguard*, action: drop,
+     why: "IPIP addresses (AS136180 Beijing Tiantexin), pasted twice into the Detectify section; they are in the IPIP record"}
+  - {record: zoomeye, net: 103.224.80.0/20, source: publicguard*, action: drop,
+     why: "Hangzhou Jiweixia Network Technology (AS6134), not Knownsec"}
+  - {record: zoomeye, net: 45.249.244.0/22, source: publicguard*, action: drop,
+     why: "UCloud Information Technology (HK) (AS135377), a cloud range"}
+  - {record: zoomeye, net: 118.24.0.0/13, source: publicguard*, action: move, to: tencent-cloud,
+     why: "Tencent Cloud (AS45090), a whole cloud range"}
+  - {record: fofa, net: 103.224.212.0/22, source: publicguard*, action: drop,
+     why: "Trellian Pty (AS133618), a domain parking network"}
+  - {record: fofa, net: 106.75.0.0/16, source: publicguard*, action: drop,
+     why: "Shanghai UCloud (AS9808), a whole cloud range"}
+  - {record: fofa, net: 150.109.0.0/16, source: publicguard*, action: move, to: tencent-cloud,
+     why: "Tencent Cloud (AS132203), a whole cloud range"}
+  - {record: binaryedge, net: 185.162.235.0/24, source: publicguard*, action: drop,
+     why: "NorthernLightsCloud (AS213461); not in the BinaryEdge API list"}
+  - {record: binaryedge, net: 185.162.236.0/23, source: publicguard*, action: drop,
+     why: "AS209150 (Greece); not in the BinaryEdge API list"}
+  - {record: binaryedge, net: 185.153.198.0/23, source: publicguard*, action: drop,
+     why: "IT Fruit (AS56380, Moldova); not in the BinaryEdge API list"}
+  - {record: shadowserver, net: 149.20.4.0/22, source: publicguard*, action: drop,
+     why: "Internet Systems Consortium (AS27321, AS30132, AS1280); no Shadowserver PTR"}
+  - {record: shadowserver, net: 64.71.254.158/32, source: publicguard*, action: drop,
+     why: "Rogers Communications (AS812); no Shadowserver PTR"}
+  - {record: shadowserver, net: 184.105.247.0/24, source: publicguard-pr1, action: drop,
+     why: "widened from 184.105.247.192/26; only that /26 has scan-*.shadowserver.io PTR records, the rest is other Hurricane Electric space"}
+  - {record: shadowserver, net: 65.49.20.0/24, source: publicguard-pr1, action: drop,
+     why: "widened from 65.49.20.64/26; only that /26 has scan-*.shadowserver.io PTR records"}
+  - {record: shadowserver, net: 74.82.47.0/24, source: publicguard-pr1, action: drop,
+     why: "widened from 74.82.47.0/26; only that /26 has scan-*.shadowserver.io PTR records"}
+  - {record: rapid7, net: 5.188.86.0/24, source: publicguard*, action: drop,
+     why: "Global Layer (AS49453), not Rapid7; no Rapid7 PTR records"}
+  - {record: shodan, net: 198.20.69.80/32, source: publicguard*, action: drop,
+     why: "PTR now names another host (chuck.nodeservers.net)"}
+  - {record: shodan, net: 98.143.148.107/32, source: publicguard*, action: drop,
+     why: "PTR now names another host (1hjf.alisha.uk.com)"}
+  - {record: shodan, net: 98.143.148.135/32, source: publicguard*, action: drop,
+     why: "PTR now names another host (api4.dizifrost.net)"}

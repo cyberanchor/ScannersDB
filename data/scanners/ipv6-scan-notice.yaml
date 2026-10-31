@@ -1,0 +1,15 @@
+# ScannersDB record; fields are described in data/README.md
+name: '"IPv6 Scan"'
+category: unknown
+status: active
+note: One IPv6 address in China Telecom space without PTR record.
+ipv6:
+- asn: AS4134
+  isp: CHINANET
+  org: China Telecom
+  country: CN
+  ip:
+  - '240e:c2:1800:84:0:1:3:2'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

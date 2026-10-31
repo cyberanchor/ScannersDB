@@ -1,0 +1,105 @@
+# ScannersDB record; fields are described in data/README.md
+name: CyberResilience (UpGuard)
+legal_entity: UpGuard, Inc.
+flag: 🇺🇸
+country: United States
+website: https://cyberresilience.io/
+category: company
+status: active
+rdns:
+- '*.cyberresilience.io'
+note: The site calls it "a security research project led by UpGuard Inc".
+ipv4:
+- asn: AS14061
+  isp: DigitalOcean, LLC
+  org: Digital Ocean
+  country: DE
+  ip:
+  - '46.101.122.229'
+  - '46.101.157.195'
+  - '46.101.232.106'
+  - '188.166.165.226'
+  - '206.81.29.46'
+- asn: AS14061
+  isp: DigitalOcean, LLC
+  org: DigitalOcean, LLC
+  country: DE
+  ip:
+  - '64.226.64.124'
+  - '64.226.79.183'
+  - '64.226.108.113'
+  - '134.209.235.25'
+  - '138.68.71.68'
+  - '138.68.73.85'
+  - '159.89.1.53'
+  - '161.35.70.45'
+  - '161.35.74.94'
+  - '164.90.176.216'
+  - '164.92.182.157'
+  - '165.22.27.186'
+  - '165.22.72.144'
+  - '165.232.118.73'
+  - '167.99.142.36'
+  - '207.154.228.110'
+  - '209.38.206.136'
+  - '209.38.208.214'
+- asn: AS14061
+  isp: DigitalOcean, LLC
+  org: Digital Ocean
+  country: NL
+  ip:
+  - '178.62.212.177'
+  - '178.128.242.174'
+  - '188.166.49.135'
+- asn: AS14061
+  isp: DigitalOcean, LLC
+  org: DigitalOcean, LLC
+  country: NL
+  ip:
+  - '64.225.78.34'
+  - '64.227.76.184'
+  - '104.248.206.108'
+  - '134.209.86.24'
+  - '146.190.29.141'
+  - '152.42.136.45'
+  - '157.245.72.120'
+  - '159.223.217.240'
+  - '167.172.40.9'
+  - '206.189.5.249'
+  - '209.38.33.11'
+  - '209.38.46.178'
+- asn: AS14061
+  isp: DigitalOcean, LLC
+  org: Digital Ocean
+  country: US
+  ip:
+  - '137.184.75.34'
+  - '137.184.78.203'
+  - '167.99.149.55'
+  - '167.99.225.143'
+- asn: AS14061
+  isp: DigitalOcean, LLC
+  org: DigitalOcean, LLC
+  country: US
+  ip:
+  - '68.183.96.213'
+  - '68.183.105.175'
+  - '68.183.137.128'
+  - '142.93.49.93'
+  - '143.198.115.76'
+  - '143.244.152.105'
+  - '157.230.225.34'
+  - '159.89.237.190'
+  - '161.35.108.63'
+  - '165.22.184.62'
+  - '165.227.85.187'
+  - '192.241.154.87'
+  - '192.241.155.120'
+  - '198.199.84.120'
+  - '198.199.123.141'
+  - '204.48.24.63'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/cyberresilience.nft
+- https://github.com/Connie-Wild/scanner-ip-list/blob/main/cyberresilience.txt
+- https://github.com/cleverg0d/PublicGuard/pull/1
+updated: '2026-10-31'

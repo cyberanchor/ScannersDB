@@ -1,0 +1,27 @@
+# ScannersDB record; fields are described in data/README.md
+name: CyberCube
+legal_entity: CyberCube Analytics, LLC
+flag: 🇺🇸
+country: United States
+website: https://www.cybcube.com/
+category: company
+status: active
+rdns:
+- '*.scanning.cybcube.com'
+note: Cyber risk models for insurers.
+ipv4:
+- asn: AS10439
+  isp: CariNet, Inc.
+  org: CariNet, Inc.
+  country: US
+  ip:
+  - '66.240.223.214'
+  - '66.240.223.240'
+  - '66.240.236.109'
+  - '66.240.236.116'
+  - '71.6.142.213'
+  - '71.6.154.144'
+  - '71.6.199.87'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/cybcube.nft
+updated: '2026-10-31'

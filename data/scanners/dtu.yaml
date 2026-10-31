@@ -1,0 +1,18 @@
+# ScannersDB record; fields are described in data/README.md
+name: Technical University of Denmark
+legal_entity: Danmarks Tekniske Universitet
+flag: 🇩🇰
+country: Denmark
+website: https://www.dtu.dk/
+category: university
+status: active
+ipv4:
+- asn: AS1835
+  isp: Forskningsnettet - Danish network for Research and Education
+  org: Symphogen
+  country: DK
+  ip:
+  - '130.226.254.28'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

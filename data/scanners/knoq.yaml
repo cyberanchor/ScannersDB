@@ -1,0 +1,17 @@
+# ScannersDB record; fields are described in data/README.md
+name: Knoq
+website: https://knoq.nl/
+category: research
+status: active
+rdns:
+- research.knoq.nl
+ipv4:
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode, LLC
+  country: GB
+  ip:
+  - '88.80.189.24'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/knoq.nft
+updated: '2026-10-31'

@@ -1,0 +1,67 @@
+# ScannersDB record; fields are described in data/README.md
+name: USC Information Sciences Institute
+legal_entity: University of Southern California
+flag: 🇺🇸
+country: United States
+website: https://www.isi.edu/
+category: university
+status: active
+asn: [AS4, AS226, AS2500]
+rdns:
+- '*.ant.isi.edu'
+- pinger*.netsec.colostate.edu
+note: Includes vantage points of the ANT project hosted by partners (Colorado State University, University of Memphis, WIDE).
+ipv4:
+- asn: AS4
+  isp: University of Southern California
+  org: University of Southern California
+  country: US
+  ip:
+  - '128.9.29.53'
+  - '128.9.29.128/30'
+  - '128.9.29.254'
+  - '128.9.63.138/31'
+- asn: AS1103
+  isp: SURFnet VI
+  org: SURFnet bv
+  country: NL
+  ip:
+  - '195.169.125.250/31'
+  - '195.169.125.252'
+- asn: AS2500
+  isp: Information Sciences Institute
+  org: University of Southern California, Information Sciences Institute
+  country: JP
+  ip:
+  - '203.178.148.17'
+  - '203.178.148.18/31'
+  - '203.178.148.20/31'
+- asn: AS8611
+  isp: Athens University of Economics and Business
+  org: Athens University of Economics and Business
+  country: GR
+  ip:
+  - '195.251.255.68/31'
+- asn: AS12145
+  isp: Colorado State University
+  org: Colorado State University
+  country: US
+  ip:
+  - '129.82.138.31'
+  - '129.82.138.44'
+- asn: AS14048
+  isp: The University of Memphis
+  org: The University of Memphis
+  country: US
+  ip:
+  - '141.225.220.91'
+ipv6:
+- asn: AS226
+  isp: University of Southern California
+  org: Los Nettos
+  country: US
+  ip:
+  - '2001:1878:401::8009:1dfe'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

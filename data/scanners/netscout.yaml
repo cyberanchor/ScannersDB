@@ -1,0 +1,23 @@
+# ScannersDB record; fields are described in data/README.md
+name: NETSCOUT (internet-albedo.net)
+legal_entity: NETSCOUT Systems, Inc.
+flag: 🇺🇸
+country: United States
+website: https://www.internet-albedo.net/
+category: company
+status: active
+asn: [AS20052]
+rdns:
+- www.internet-albedo.net
+note: Internet Safety Initiative of the NETSCOUT threat intelligence team; looks for services that can be abused for DDoS. AS20052 is Arbor Networks, a NETSCOUT company.
+ipv4:
+- asn: AS20052
+  isp: Arbor Networks, Inc.
+  org: Arbor Networks, Inc.
+  country: US
+  ip:
+  - '146.88.240.0/23'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/netscout.nft
+- https://github.com/Connie-Wild/scanner-ip-list/blob/main/netscout.txt
+updated: '2026-10-31'

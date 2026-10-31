@@ -1,0 +1,23 @@
+# ScannersDB record; fields are described in data/README.md
+name: Team Cymru
+legal_entity: Team Cymru, Inc.
+flag: 🇺🇸
+country: United States
+website: https://www.team-cymru.com/
+category: company
+status: active
+asn: [AS23028]
+rdns:
+- dnsresearch.cymru.com
+note: DNS and NTP research scans.
+ipv4:
+- asn: AS23028
+  isp: Team Cymru Inc.
+  org: Team Cymru Inc
+  country: US
+  ip:
+  - '216.31.0.17'
+  - '216.31.13.40/30'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

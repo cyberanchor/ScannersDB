@@ -1,0 +1,18 @@
+# ScannersDB record; fields are described in data/README.md
+name: mcdb.app
+website: https://mcdb.app/
+category: hobby
+status: active
+rdns:
+- scanner.mcdb.app
+note: Minecraft server list.
+ipv4:
+- asn: AS12989
+  isp: Black HOST Ltd
+  org: Black HOST Ltd
+  country: IT
+  ip:
+  - '2.59.21.51'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

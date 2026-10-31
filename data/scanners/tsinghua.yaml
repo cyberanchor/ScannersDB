@@ -1,0 +1,17 @@
+# ScannersDB record; fields are described in data/README.md
+name: Tsinghua University
+legal_entity: Tsinghua University
+flag: 🇨🇳
+country: China
+website: https://www.tsinghua.edu.cn/
+category: university
+status: active
+ipv6:
+- asn: AS23910
+  isp: CNGI-CERNET2
+  country: CN
+  ip:
+  - '2001:da8:ff:212::7:8'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

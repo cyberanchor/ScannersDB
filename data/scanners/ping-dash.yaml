@@ -1,0 +1,17 @@
+# ScannersDB record; fields are described in data/README.md
+name: ping-dash.com
+website: https://ping-dash.com/
+category: unknown
+status: active
+rdns:
+- scanner.ping-dash.com
+ipv4:
+- asn: AS14618
+  isp: Amazon.com, Inc.
+  org: AWS EC2 (us-east-1)
+  country: US
+  ip:
+  - '32.193.229.248'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

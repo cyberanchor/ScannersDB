@@ -1,0 +1,16 @@
+# ScannersDB record; fields are described in data/README.md
+name: securityresearch.net
+category: unknown
+status: active
+rdns:
+- form.securityresearch.net
+ipv4:
+- asn: AS20473
+  isp: The Constant Company
+  org: Vultr Holdings, LLC
+  country: US
+  ip:
+  - '144.202.82.88'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/securityresearch.nft
+updated: '2026-10-31'

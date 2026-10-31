@@ -1,0 +1,15 @@
+# ScannersDB record; fields are described in data/README.md
+name: '"Global Network Asset Distribution Dashboard"'
+category: unknown
+status: active
+note: One address without PTR, named after the page it serves.
+ipv4:
+- asn: AS63835
+  isp: No.293, Wanbao Avenue
+  org: Chinanet HN
+  country: CN
+  ip:
+  - '175.6.54.250'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

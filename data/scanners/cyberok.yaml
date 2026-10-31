@@ -1,0 +1,23 @@
+# ScannersDB record; fields are described in data/README.md
+name: CyberOK
+legal_entity: ООО «СайберОК» (CyberOK LLC)
+flag: 🇷🇺
+country: Russia
+website: https://www.cyberok.ru/
+category: company
+status: active
+rdns:
+- scan-*.skipa.cyberok.ru
+user_agents:
+- Mozilla/5.0 (compatible; CyberOKInspect/1.0; +https://www.cyberok.ru/policy.html)
+opt_out: https://www.cyberok.ru/policy.html
+ipv4:
+- asn: AS49505
+  isp: JSC Selectel
+  org: Comfortel
+  country: KZ
+  ip:
+  - '85.142.100.0/24'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/cyberok.nft
+updated: '2026-10-31'

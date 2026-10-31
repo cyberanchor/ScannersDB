@@ -1,0 +1,28 @@
+# ScannersDB record; fields are described in data/README.md
+name: tttx
+website: https://tttx.net/
+category: research
+status: active
+rdns:
+- scan-*.tttx.net
+user_agents:
+- tttx.net research scan (+https://tttx.net/optout.php; abuse@tttx.net)
+opt_out: https://tttx.net/optout.php
+ipv4:
+- asn: AS174
+  isp: Cogent Communications
+  org: rc7
+  country: US
+  ip:
+  - '154.59.103.12/31'
+  - '154.59.103.16/28'
+  - '154.59.103.32/27'
+  - '154.59.103.64/27'
+  - '154.59.103.96/28'
+  - '154.59.103.112/29'
+  - '154.59.103.120/30'
+  - '154.59.103.124/31'
+  - '154.59.103.126'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/tttx.nft
+updated: '2026-10-31'

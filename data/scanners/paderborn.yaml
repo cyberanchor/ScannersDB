@@ -1,0 +1,25 @@
+# ScannersDB record; fields are described in data/README.md
+name: Paderborn University
+legal_entity: Universität Paderborn
+flag: 🇩🇪
+country: Germany
+website: https://www.uni-paderborn.de/
+category: university
+status: active
+ipv4:
+- asn: AS680
+  isp: Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.
+  org: RUB NDS
+  country: DE
+  ip:
+  - '195.37.190.64/27'
+- asn: AS680
+  isp: Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.
+  org: UP Nets3
+  country: DE
+  ip:
+  - '192.26.189.4/31'
+  - '192.26.189.6'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

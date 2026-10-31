@@ -1,0 +1,18 @@
+# ScannersDB record; fields are described in data/README.md
+name: InterneTTL
+website: http://www.internettl.org/
+category: research
+status: active
+rdns:
+- internettl.org
+ipv4:
+- asn: AS14987
+  isp: Rethem Hosting LLC
+  org: Rethem Hosting LLC
+  country: US
+  ip:
+  - '104.152.52.0/24'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/internettl.nft
+- https://github.com/Connie-Wild/scanner-ip-list/blob/main/internettl.txt
+updated: '2026-10-31'

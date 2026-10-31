@@ -1,0 +1,68 @@
+# ScannersDB record; fields are described in data/README.md
+name: ZoomEye
+legal_entity: Beijing Knownsec Information Technology Co., Ltd.
+flag: 🇨🇳
+country: China
+website: https://www.zoomeye.ai/
+category: search-engine
+status: active
+note: Does not identify itself through PTR records.
+ipv4:
+- asn: AS4134
+  isp: Chinanet
+  org: Chinanet JS
+  country: CN
+  ip:
+  - '222.186.13.130'
+- asn: AS56046
+  isp: China Mobile Communications Corporation
+  org: China Mobile Communications Group Co., Ltd
+  country: CN
+  ip:
+  - '36.156.22.4'
+- asn: AS63199
+  isp: CDS Global Cloud Co., Ltd
+  org: CDS Global Cloud Co., Ltd
+  country: US
+  ip:
+  - '148.153.56.170'
+  - '148.153.56.174'
+  - '148.153.188.246'
+  - '148.153.188.254'
+  - '148.153.189.62'
+- asn: AS135377
+  isp: UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
+  org: Ucloud Information Technology (hk) Limited
+  country: HK
+  ip:
+  - '150.107.38.251'
+  - '165.154.23.177'
+- asn: AS135377
+  isp: UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
+  org: Ucloud Information Technology
+  country: NG
+  ip:
+  - '152.32.142.86'
+- asn: AS135377
+  isp: UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
+  org: Ucloud Information Technology
+  country: US
+  ip:
+  - '165.154.163.10'
+- asn: AS135377
+  isp: UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
+  org: Ucloud Information Technology (hk) Limited
+  country: US
+  ip:
+  - '150.107.36.236'
+- asn: AS135377
+  isp: UCLOUD INFORMATION TECHNOLOGY (HK) LIMITED
+  org: Ucloud Information Technology HK Limitedimited
+  country: US
+  ip:
+  - '154.197.56.163'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/zoomeye.nft
+- https://github.com/cleverg0d/PublicGuard/blob/main/scanners_list.txt
+- https://github.com/cleverg0d/PublicGuard/pull/1
+updated: '2026-10-31'

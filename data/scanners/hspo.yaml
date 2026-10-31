@@ -1,0 +1,20 @@
+# ScannersDB record; fields are described in data/README.md
+name: HSPO
+website: https://info-scan.hspo.io/
+category: unknown
+status: inactive
+note: Gone; OpenFilters keeps its last list as inactive. The addresses redirected to info-scan.hspo.io.
+ipv4:
+- asn: AS213535
+  isp: YottaSrc
+  org: YottaSrc
+  country: DE
+  ip:
+  - '45.134.38.40/29'
+  - '45.134.38.48/30'
+  - '45.134.38.52/31'
+  - '45.134.38.54'
+  - '45.134.38.157'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/inactive/hspo.nft
+updated: '2026-10-31'

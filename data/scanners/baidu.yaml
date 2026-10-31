@@ -1,0 +1,21 @@
+# ScannersDB record; fields are described in data/README.md
+name: Baidu
+legal_entity: Baidu Japan Inc.
+flag: 🇯🇵
+country: Japan
+website: https://www.baidu.com/
+category: cloud
+status: active
+asn: [AS55967]
+note: PublicGuard lists it as "Baidu (AS38627)". The network is Baidu Japan's 119.63.192.0/21, announced by AS55967 (Beijing Baidu Netcom). Not a scanner list; left out of the combined lists.
+ipv4:
+- asn: AS55967
+  isp: Beijing Baidu Netcom Science and Technology Co., Ltd.
+  org: Baidu Japan Inc.
+  country: JP
+  ip:
+  - '119.63.192.0/21'
+sources:
+- https://github.com/cleverg0d/PublicGuard/blob/main/scanners_list.txt
+- https://github.com/cleverg0d/PublicGuard/pull/1
+updated: '2026-10-31'

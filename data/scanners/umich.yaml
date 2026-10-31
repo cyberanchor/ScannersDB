@@ -1,0 +1,25 @@
+# ScannersDB record; fields are described in data/README.md
+name: University of Michigan
+legal_entity: The Regents of the University of Michigan
+flag: 🇺🇸
+country: United States
+website: https://umich.edu/
+category: university
+status: active
+asn: [AS36375]
+rdns:
+- researchscan*.eecs.umich.edu
+opt_out: https://cse.engin.umich.edu/about/resources/connection-attempts/
+ipv4:
+- asn: AS36375
+  isp: University of Michigan
+  org: University of Michigan College of Engineering
+  country: US
+  ip:
+  - '141.212.120.0/22'
+  - '141.212.124.0/23'
+  - '141.213.13.192/28'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+- https://github.com/Connie-Wild/scanner-ip-list/blob/main/umich.txt
+updated: '2026-10-31'

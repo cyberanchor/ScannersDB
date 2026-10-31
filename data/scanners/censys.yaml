@@ -1,0 +1,90 @@
+# ScannersDB record; fields are described in data/README.md
+name: Censys
+legal_entity: Censys, Inc.
+flag: 🇺🇸
+country: United States
+website: https://censys.com/
+category: search-engine
+status: active
+asn: [AS398324, AS398705, AS398722]
+rdns:
+- '*.censys-scanner.com'
+user_agents:
+- Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+opt_out: https://docs.censys.com/docs/opt-out-of-data-collection
+ipv4:
+- asn: AS398324
+  isp: Censys, Inc.
+  org: Censys Inc
+  country: US
+  ip:
+  - '66.132.148.0/24'
+  - '66.132.153.0/24'
+  - '66.132.159.0/24'
+  - '66.132.172.0/24'
+  - '66.132.186.0/24'
+  - '66.132.195.0/24'
+  - '66.132.198.0/24'
+  - '66.132.224.0/24'
+  - '66.132.228.0/24'
+  - '162.142.125.0/24'
+  - '167.94.138.0/24'
+  - '167.248.133.0/24'
+- asn: AS398705
+  isp: Censys, Inc.
+  org: Censys, Inc.
+  country: DE
+  ip:
+  - '167.94.146.0/24'
+- asn: AS398705
+  isp: Censys, Inc.
+  org: Censys, Inc.
+  country: US
+  ip:
+  - '167.94.145.0/24'
+- asn: AS398722
+  isp: Censys, Inc.
+  org: Censys, Inc.
+  country: HK
+  ip:
+  - '199.45.154.0/23'
+- isp: Censys
+  org: Censys, Inc.
+  country: US
+  ip:
+  - '206.168.32.0/22'
+ipv6:
+- asn: AS398324
+  isp: Censys
+  org: Censys, Inc.
+  country: US
+  ip:
+  - '2602:80d:1000::/48'
+- asn: AS398324
+  isp: Censys, Inc.
+  org: Censys, Inc.
+  country: US
+  ip:
+  - '2602:80d:1006::/47'
+  - '2602:80d:1008::/47'
+  - '2602:80d:100a::/48'
+  - '2620:96:e000::/48'
+- asn: AS398722
+  isp: Censys, Inc.
+  org: Censys, Inc.
+  country: HK
+  ip:
+  - '2602:80d:1004::/112'
+- asn: AS398722
+  isp: Censys, Inc.
+  org: Censys, Inc.
+  country: US
+  ip:
+  - '2602:80d:1003::/112'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/censys.nft
+- https://github.com/Connie-Wild/scanner-ip-list/blob/main/censys.txt
+- https://github.com/wdes/security/blob/main/data/scanners/censys.txt
+- https://github.com/cleverg0d/PublicGuard/blob/main/scanners_list.txt
+- https://github.com/cleverg0d/PublicGuard/pull/1
+updated: '2026-10-31'

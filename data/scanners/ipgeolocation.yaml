@@ -1,0 +1,16 @@
+# ScannersDB record; fields are described in data/README.md
+name: IPGeolocation.io
+website: https://ipgeolocation.io/
+category: company
+status: active
+note: Its ip-whois-crawler; no PTR record.
+ipv4:
+- asn: AS24940
+  isp: Hetzner Online GmbH
+  org: Hetzner
+  country: DE
+  ip:
+  - '176.9.9.142'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

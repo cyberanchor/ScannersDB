@@ -1,0 +1,18 @@
+# ScannersDB record; fields are described in data/README.md
+name: Open resolver scan (proper.com)
+website: https://proper.com/
+category: research
+status: active
+rdns:
+- open-resolver-scan.proper.com
+note: proper.com is the site of Paul Hoffman (Proper Publishing).
+ipv4:
+- asn: AS14061
+  isp: DigitalOcean, LLC
+  org: Digital Ocean
+  country: US
+  ip:
+  - '174.138.40.30'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

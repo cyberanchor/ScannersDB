@@ -1,0 +1,20 @@
+# ScannersDB record; fields are described in data/README.md
+name: ESET Research
+legal_entity: ESET, spol. s r.o.
+flag: 🇸🇰
+country: Slovakia
+website: https://internet-scanner.eset.com/
+category: company
+status: active
+rdns:
+- internet-scanner.eset.com
+ipv4:
+- asn: AS14061
+  isp: DigitalOcean, LLC
+  org: DigitalOcean, LLC
+  country: CA
+  ip:
+  - '142.93.146.198'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/eset.nft
+updated: '2026-10-31'

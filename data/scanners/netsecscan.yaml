@@ -1,0 +1,29 @@
+# ScannersDB record; fields are described in data/README.md
+name: netsecscan.net
+website: http://www.netsecscan.net/
+category: unknown
+status: inactive
+rdns:
+- netsecscan.net
+note: The domain is parked and OpenFilters lists the scanner as inactive.
+ipv4:
+- asn: AS202425
+  isp: IP Volume inc
+  org: IP Volume inc
+  country: NL
+  ip:
+  - '89.248.167.132/31'
+  - '89.248.167.135'
+  - '89.248.167.139'
+  - '89.248.167.140'
+  - '89.248.167.147'
+  - '89.248.167.149'
+  - '89.248.167.150/31'
+  - '89.248.167.158/31'
+  - '89.248.167.164/31'
+  - '89.248.167.191'
+  - '89.248.167.192/31'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/inactive/netsecscan.nft
+- https://github.com/Connie-Wild/scanner-ip-list/blob/main/netsecscan.txt
+updated: '2026-10-31'

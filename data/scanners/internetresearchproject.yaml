@@ -1,0 +1,33 @@
+# ScannersDB record; fields are described in data/README.md
+name: Internet Research Project
+website: http://internet-research-project.net/
+category: research
+status: active
+rdns:
+- '*.internet-research-project.net'
+note: The addresses are short-lived and change often.
+ipv4:
+- asn: AS63949
+  isp: Akamai Technologies
+  org: Linode
+  country: US
+  ip:
+  - '172.104.23.19'
+  - '172.104.211.111'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode
+  country: US
+  ip:
+  - '23.239.12.138'
+  - '23.239.14.238'
+  - '23.239.15.172'
+  - '45.79.133.252'
+  - '45.79.156.130'
+  - '97.107.136.165'
+  - '104.237.150.176'
+  - '104.237.151.244'
+  - '172.104.210.143'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/internetresearchproject.nft
+updated: '2026-10-31'

@@ -1,0 +1,43 @@
+# ScannersDB record; fields are described in data/README.md
+name: Georgia Institute of Technology
+legal_entity: Georgia Institute of Technology
+flag: 🇺🇸
+country: United States
+website: https://www.gatech.edu/
+category: university
+status: active
+asn: [AS2637]
+ipv4:
+- asn: AS2637
+  isp: Georgia Institute of Technology
+  org: iWispr LLC
+  country: US
+  ip:
+  - '38.110.42.252/31'
+  - '38.110.42.254'
+- asn: AS2637
+  isp: Georgia Institute of Technology
+  org: Sobo Networks
+  country: US
+  ip:
+  - '38.110.46.0/24'
+ipv6:
+- asn: AS2637
+  isp: Georgia Institute of Technology
+  org: Southern Light Rail, LLC
+  country: US
+  ip:
+  - '2001:550:9005::11'
+  - '2001:550:9005:1000::11'
+  - '2001:550:9005:2000::11'
+  - '2001:550:9005:3000::11'
+  - '2001:550:9005:4000::11'
+  - '2001:550:9005:6000::11'
+  - '2001:550:9005:7000::11'
+  - '2001:550:9005:8000::11'
+  - '2001:550:9005:c000::11'
+  - '2001:550:9005:e000::11'
+  - '2001:550:9005:f000::11'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

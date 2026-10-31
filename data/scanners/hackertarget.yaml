@@ -1,0 +1,27 @@
+# ScannersDB record; fields are described in data/README.md
+name: HackerTarget
+legal_entity: Hacker Target Pty Ltd
+flag: 🇦🇺
+country: Australia
+website: https://hackertarget.com/
+category: company
+status: active
+rdns:
+- survey*.hackertarget.io
+ipv4:
+- asn: AS14061
+  isp: DigitalOcean, LLC
+  org: Digital Ocean
+  country: US
+  ip:
+  - '198.211.109.100'
+- asn: AS14061
+  isp: DigitalOcean, LLC
+  org: DigitalOcean, LLC
+  country: US
+  ip:
+  - '143.198.179.104'
+  - '159.223.98.198'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/hackertarget.nft
+updated: '2026-10-31'

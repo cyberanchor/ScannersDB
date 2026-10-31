@@ -1,0 +1,19 @@
+# ScannersDB record; fields are described in data/README.md
+name: CyberGreen Institute
+legal_entity: CyberGreen Institute
+website: https://cybergreen.net/
+category: research
+status: active
+rdns:
+- '*.scanning.cybergreen.net'
+note: Non-profit measuring services that can be abused for DDoS.
+ipv4:
+- asn: AS14618
+  isp: Amazon.com, Inc.
+  org: AWS EC2 (us-east-1)
+  country: US
+  ip:
+  - '52.73.169.169'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/cybergreen.nft
+updated: '2026-10-31'

@@ -1,0 +1,57 @@
+# ScannersDB record; fields are described in data/README.md
+name: ONLYSCANS
+legal_entity: OnlyScans LLC
+flag: 🇺🇸
+country: United States
+website: https://onlyscans.com/
+category: company
+status: active
+asn: [AS402226]
+rdns:
+- '*.scanners.onlyscans.net'
+user_agents:
+- Mozilla/OnlyScans (optout@onlyscans.com)
+- Mozilla/5.0; Keydrop.io/1.0(onlyscans.com/about);
+opt_out: optout@onlyscans.com
+note: Part of the addresses has no PTR record.
+ipv4:
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: FR
+  ip:
+  - '172.239.10.144'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: SE
+  ip:
+  - '172.232.137.89'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: SG
+  ip:
+  - '104.64.210.44'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode
+  country: SG
+  ip:
+  - '139.162.53.242'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: US
+  ip:
+  - '172.233.179.122'
+  - '172.233.224.159'
+- asn: AS402226
+  isp: OnlyScans LLC
+  org: Converted Networks LLC
+  country: US
+  ip:
+  - '68.69.177.0/24'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/onlyscans.nft
+updated: '2026-10-31'

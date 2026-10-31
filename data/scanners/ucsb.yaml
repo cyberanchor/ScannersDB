@@ -1,0 +1,19 @@
+# ScannersDB record; fields are described in data/README.md
+name: University of California, Santa Barbara
+legal_entity: The Regents of the University of California
+flag: 🇺🇸
+country: United States
+website: https://www.ucsb.edu/
+category: university
+status: active
+asn: [AS131]
+ipv4:
+- asn: AS131
+  isp: University of California, Santa Barbara
+  org: University of California, Santa Barbara
+  country: US
+  ip:
+  - '192.35.222.19'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

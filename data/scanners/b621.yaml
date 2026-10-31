@@ -1,0 +1,18 @@
+# ScannersDB record; fields are described in data/README.md
+name: b621.net hilbert-mapper
+website: https://b621.net/
+category: hobby
+status: active
+rdns:
+- hilbert-mapper-icmp.b621.net
+note: ICMP scans for a Hilbert-curve map of the address space.
+ipv4:
+- asn: AS206924
+  isp: Ben Cartwright-Cox
+  org: Benjamin Cartwright-Cox
+  country: GB
+  ip:
+  - '185.230.223.46'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

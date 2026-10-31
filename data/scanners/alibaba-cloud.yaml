@@ -1,0 +1,88 @@
+# ScannersDB record; fields are described in data/README.md
+name: Alibaba Cloud
+legal_entity: Alibaba Group Holding Limited
+flag: 🇨🇳
+country: China
+website: https://www.alibabacloud.com/
+category: cloud
+status: active
+asn: [AS24429, AS45102]
+note: Whole Alibaba Cloud ranges (registered to Alibaba (US) Technology, Alibaba Cloud LLC and Zhejiang Taobao Network) that PublicGuard lists as Chinese collectors. They hold ordinary cloud customers too and are left out of the combined lists.
+ipv4:
+- asn: AS24429
+  isp: Zhejiang Taobao Network Co., Ltd
+  org: Alibaba.com LLC
+  country: PH
+  ip:
+  - '47.246.0.0/16'
+- asn: AS24429
+  isp: Zhejiang Taobao Network Co., Ltd
+  org: Alibaba.com LLC
+  country: RU
+  ip:
+  - '163.181.0.0/16'
+- asn: AS24429
+  isp: Zhejiang Taobao Network Co., Ltd
+  org: Alibaba.com LLC
+  country: SG
+  ip:
+  - '155.102.0.0/16'
+- asn: AS45102
+  isp: Alibaba (US) Technology Co., Ltd.
+  org: Alibaba Cloud LLC
+  country: GB
+  ip:
+  - '139.95.0.0/16'
+- asn: AS45102
+  isp: Alibaba Cloud LLC
+  org: Alibaba Cloud - HK
+  country: HK
+  ip:
+  - '47.238.0.0/15'
+  - '47.243.0.0/16'
+- asn: AS45102
+  isp: Alibaba Cloud LLC
+  org: Alibaba Cloud - IN
+  country: HK
+  ip:
+  - '147.139.0.0/16'
+- asn: AS45102
+  isp: Alibaba.com LLC
+  org: Hong Kong
+  country: HK
+  ip:
+  - '47.242.0.0/16'
+- asn: AS45102
+  isp: Alibaba (US) Technology Co., Ltd.
+  org: Alibaba.com LLC
+  country: HK
+  ip:
+  - '47.56.0.0/15'
+- asn: AS45102
+  isp: Alibaba Cloud LLC
+  org: Alibaba Cloud - JP
+  country: JP
+  ip:
+  - '47.74.0.0/15'
+- asn: AS45102
+  isp: Alibaba (US) Technology Co., Ltd.
+  org: Alibaba Cloud LLC
+  country: SG
+  ip:
+  - '47.235.0.0/16'
+- asn: AS45102
+  isp: Alibaba (US) Technology Co., Ltd.
+  org: Alibaba.com LLC
+  country: SG
+  ip:
+  - '47.236.0.0/16'
+- asn: AS45102
+  isp: Alibaba (US) Technology Co., Ltd.
+  org: Alibaba.com LLC
+  country: US
+  ip:
+  - '47.88.0.0/14'
+sources:
+- https://github.com/cleverg0d/PublicGuard/blob/main/scanners_list.txt
+- https://github.com/cleverg0d/PublicGuard/pull/1
+updated: '2026-10-31'

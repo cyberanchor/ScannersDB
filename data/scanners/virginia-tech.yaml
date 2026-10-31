@@ -1,0 +1,18 @@
+# ScannersDB record; fields are described in data/README.md
+name: Virginia Tech
+legal_entity: Virginia Polytechnic Institute and State University
+flag: 🇺🇸
+country: United States
+website: https://www.vt.edu/
+category: university
+status: active
+ipv4:
+- asn: AS14618
+  isp: Amazon.com, Inc.
+  org: AWS EC2 (us-east-1)
+  country: US
+  ip:
+  - '34.227.19.103'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

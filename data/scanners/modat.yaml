@@ -1,0 +1,84 @@
+# ScannersDB record; fields are described in data/README.md
+name: Modat
+legal_entity: Modat B.V.
+flag: 🇳🇱
+country: Netherlands
+website: https://modat.io/
+category: search-engine
+status: active
+asn: [AS209334]
+rdns:
+- '*.scanner.modat.io'
+user_agents:
+- Mozilla/5.0 (compatible; ModatScanner/1.0; +https://modat.io/)
+opt_out: https://modat.io/opt-out
+ipv4:
+- asn: AS16276
+  isp: OVH SAS
+  org: OVH GmbH
+  country: DE
+  ip:
+  - '57.129.64.10'
+  - '57.129.64.219'
+  - '57.129.64.237'
+- asn: AS16276
+  isp: OVH SAS
+  org: OVH
+  country: GB
+  ip:
+  - '54.37.81.238'
+- asn: AS49981
+  isp: WorldStream B.V.
+  org: Moto
+  country: NL
+  ip:
+  - '185.2.80.252/31'
+- asn: AS59253
+  isp: Leaseweb Singapore Pte. LTD
+  org: Leaseweb Asia Pacific pte. ltd.
+  country: SG
+  ip:
+  - '23.111.14.183'
+  - '23.111.14.184/29'
+  - '23.111.14.192'
+- asn: AS59253
+  isp: Leaseweb Singapore Pte. Ltd.
+  org: Leaseweb Singapore Pte. LTD
+  country: SG
+  ip:
+  - '142.91.102.186/31'
+- asn: AS59253
+  isp: LSW
+  country: SG
+  ip:
+  - '209.58.160.54'
+- asn: AS201401
+  isp: NewVM B.V.
+  org: Modat
+  country: NL
+  ip:
+  - '31.14.32.4/30'
+  - '31.14.32.8'
+- asn: AS209334
+  isp: Modat B.V.
+  org: Modat B.V
+  country: CA
+  ip:
+  - '85.217.149.0/24'
+- asn: AS209334
+  isp: Modat B.V.
+  org: Modat B.V
+  country: FR
+  ip:
+  - '85.217.140.0/24'
+- asn: AS209334
+  isp: Modat B.V.
+  org: Modat B.V
+  country: SG
+  ip:
+  - '212.73.148.0/24'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/modat.nft
+- https://github.com/cleverg0d/PublicGuard/pull/1
+- https://scanner.modat.io/ipv4.txt
+updated: '2026-10-31'

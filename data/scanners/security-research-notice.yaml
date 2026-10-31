@@ -1,0 +1,15 @@
+# ScannersDB record; fields are described in data/README.md
+name: '"Security Research Traffic Notice"'
+category: unknown
+status: active
+note: One address without PTR that serves a page titled "Security Research Traffic Notice".
+ipv4:
+- asn: AS14061
+  isp: DigitalOcean, LLC
+  org: Digital Ocean
+  country: US
+  ip:
+  - '138.197.90.201'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

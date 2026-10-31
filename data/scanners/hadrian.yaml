@@ -1,0 +1,48 @@
+# ScannersDB record; fields are described in data/README.md
+name: Hadrian
+legal_entity: Hadrian Security B.V.
+flag: 🇳🇱
+country: Netherlands
+website: https://hadrian.io/
+category: company
+status: active
+rdns:
+- '*.hdrn.nu'
+- '*.hadrian.io'
+ipv4:
+- asn: AS1101
+  isp: Surf B.V.
+  org: Hadrian
+  country: NL
+  ip:
+  - '145.220.91.19'
+- asn: AS12876
+  isp: SCALEWAY
+  country: NL
+  ip:
+  - '51.15.98.45'
+  - '51.15.115.141'
+- asn: AS12876
+  isp: SCALEWAY
+  org: Online SAS NL
+  country: NL
+  ip:
+  - '51.15.44.6'
+  - '51.15.56.200'
+- asn: AS12876
+  isp: Scaleway SAS
+  org: Scaleway
+  country: NL
+  ip:
+  - '51.158.173.123'
+  - '51.158.173.124'
+ipv6:
+- asn: AS1101
+  isp: Surf B.V.
+  org: Surf B.V
+  country: NL
+  ip:
+  - '2001:67c:6ec:2913:145:220:91:19'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/hadrian.nft
+updated: '2026-10-31'

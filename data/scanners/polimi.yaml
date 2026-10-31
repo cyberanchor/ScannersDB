@@ -1,0 +1,18 @@
+# ScannersDB record; fields are described in data/README.md
+name: Politecnico di Milano
+legal_entity: Politecnico di Milano
+flag: 🇮🇹
+country: Italy
+website: https://www.polimi.it/
+category: university
+status: active
+ipv4:
+- asn: AS137
+  isp: CILEA
+  org: Cineca Consorzio Interuniversitario
+  country: IT
+  ip:
+  - '131.175.55.101'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/universities.nft
+updated: '2026-10-31'

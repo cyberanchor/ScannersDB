@@ -1,0 +1,17 @@
+# ScannersDB record; fields are described in data/README.md
+name: KittyScan
+category: hobby
+status: active
+note: Minecraft server scanner; no PTR records.
+ipv4:
+- asn: AS51396
+  isp: Pfcloud UG (haftungsbeschrankt)
+  org: Pfcloud UG
+  country: NL
+  ip:
+  - '176.65.148.4'
+  - '176.65.148.158'
+  - '176.65.148.174'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/other.nft
+updated: '2026-10-31'

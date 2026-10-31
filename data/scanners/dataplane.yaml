@@ -1,0 +1,27 @@
+# ScannersDB record; fields are described in data/README.md
+name: Dataplane.org
+website: https://dataplane.org/
+category: research
+status: active
+rdns:
+- research.dataplane.org
+opt_out: https://research.dataplane.org/
+ipv4:
+- asn: AS63311
+  isp: '20C, LLC'
+  org: OHG Networks, LLC
+  country: US
+  ip:
+  - '204.130.133.143'
+  - '204.130.133.193'
+ipv6:
+- asn: AS63311
+  isp: '20C, LLC'
+  org: '6connect'
+  country: US
+  ip:
+  - '2607:fae0:f202:44c::143'
+  - '2607:fae0:f202:44c::193'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/dataplane.nft
+updated: '2026-10-31'
