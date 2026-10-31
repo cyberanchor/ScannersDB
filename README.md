@@ -3,116 +3,19 @@
 <img src="./assets/logo.png" width="200"></img>
 <h1> ScannersDB </h1>
 
-<sub>Database of internet-wide scanners: search engines, security companies, research projects and universities that scan the whole address space. One YAML file per company with its IPv4 blocks, legal entity, ASN, ISP and ORG, plus ready lists for nftables, ipset and iptables.</sub>
+<sub>Database of internet-wide scanners: search engines, security companies, research projects and universities that scan the whole address space. One YAML file per company with its IPv4 blocks, legal entity, ASN, ISP and ORG.</sub>
 
-<kbd>🛰️ Scanners</kbd> <kbd>🏢 Legal entity</kbd> <kbd>🖧 ASN / ISP / ORG</kbd> <kbd>🌍 Country</kbd> <kbd>🔎 PTR / User-Agent</kbd> <kbd>🚫 Opt-out</kbd> <kbd>🧱 nftables / ipset</kbd>
-
-![GitHub Stars](https://img.shields.io/github/stars/cyberanchor/ScannersDB?color=green&style=social)
-![GitHub Forks](https://img.shields.io/github/forks/cyberanchor/ScannersDB?color=green&style=social)
-![GitHub Issues](https://img.shields.io/github/issues/cyberanchor/ScannersDB?color=green&style=flat-square)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/cyberanchor/ScannersDB?color=green&style=flat-square)
-![GitHub Contributors](https://img.shields.io/github/contributors/cyberanchor/ScannersDB?color=green&style=flat-square)
-
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat-square)](./tools/)
-[![YAML](https://img.shields.io/badge/data-YAML-CB171E?logo=yaml&logoColor=white&style=flat-square)](./data/scanners/)
-[![JSON](https://img.shields.io/badge/JSON-000000?logo=json&logoColor=white&style=flat-square)](./data/lists/scanners.json)
-[![CSV](https://img.shields.io/badge/CSV-217346?style=flat-square)](./data/lists/scanners.csv)
-[![nftables](https://img.shields.io/badge/nftables-FCC624?logo=linux&logoColor=black&style=flat-square)](./data/lists/scanners.nft)
-[![ipset](https://img.shields.io/badge/ipset%20%2F%20iptables-555555?logo=linux&logoColor=white&style=flat-square)](./data/lists/scanners.ipset)
+<kbd>🛰️ Scanners</kbd> <kbd>🏢 Legal entity</kbd> <kbd>🖧 ASN / ISP / ORG</kbd> <kbd>🌍 Country</kbd> <kbd>🔎 PTR / User-Agent</kbd> <kbd>🚫 Opt-out</kbd>
 
 </div>
 
 > **Based on:** [internet-scanners](https://github.com/OpenFilters/internet-scanners) by [@OpenFilters](https://github.com/OpenFilters) | [scanner-ip-list](https://github.com/Connie-Wild/scanner-ip-list) by [@Connie-Wild](https://github.com/Connie-Wild) | [security](https://github.com/wdes/security) by [@wdes](https://github.com/wdes) ([security.wdes.eu](https://security.wdes.eu/)) | [PublicGuard](https://github.com/cleverg0d/PublicGuard) by [@cleverg0d](https://github.com/cleverg0d) (with [PR #1](https://github.com/cleverg0d/PublicGuard/pull/1)) | lists published by BinaryEdge, LeakIX, ONYPHE, Modat and Tenable
 
-> **Data:** every company or scanner is stored in YAML in [`data/scanners/`](./data/scanners/) ([fields](./data/README.md)), ready lists in [`data/lists/`](./data/lists/): [scanners_v4.txt](./data/lists/scanners_v4.txt), [scanners_v6.txt](./data/lists/scanners_v6.txt), [scanners.nft](./data/lists/scanners.nft), [scanners.ipset](./data/lists/scanners.ipset), [scanners.csv](./data/lists/scanners.csv), [scanners.json](./data/lists/scanners.json)
-
-<!-- stats:start -->
-**133** records (124 active scanners, 6 inactive, 3 cloud) · **27,382** IPv4 and **5,703** IPv6 networks in the records · combined list: **27,063** IPv4 networks (145,201 addresses) and **5,703** IPv6 networks · updated 2026-10-31
-<!-- stats:end -->
-
-## About
-
-Shodan, Censys and dozens of lesser-known scanners connect to every public address every day, and what they find ends up
-in search engines and threat-intelligence reports. ScannersDB records who is behind each scanner: the company or
-institution that runs it, the networks it scans from with their ASN, ISP and ORG, how it identifies itself (PTR
-names, User-Agent) and where to ask to be left out.
-
-The scanner lists of four community repositories and the lists the operators publish themselves are merged into one
-record per organisation. Entries that a source puts under the wrong company, whole cloud ranges filed under a scanner
-and prefixes that are not valid networks were checked against RDAP, ip-api.com and PTR records and are corrected on
-every import ([corrections](./data/README.md#corrections)).
-
-## Quick start
-
-**nftables**: a table `inet scannersdb` with two sets and an input chain that drops them. Run it again to update.
-
-```bash
-curl -fsSLO https://raw.githubusercontent.com/cyberanchor/ScannersDB/main/data/lists/scanners.nft
-sudo nft -f scanners.nft
-sudo nft list chain inet scannersdb input        # counters show what was dropped
-```
-
-**ipset + iptables**
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/cyberanchor/ScannersDB/main/data/lists/scanners.ipset | sudo ipset restore -exist
-sudo iptables  -I INPUT -m set --match-set scannersdb_v4 src -j DROP
-sudo ip6tables -I INPUT -m set --match-set scannersdb_v6 src -j DROP
-```
-
-**Plain lists** for other tools: [`scanners_v4.txt`](./data/lists/scanners_v4.txt), one network per line; one scanner
-only: `data/lists/v4/<id>.txt`, for example [`v4/shodan.txt`](./data/lists/v4/shodan.txt).
-
-**Which scanner is this address?**
-
-```bash
-git clone https://github.com/cyberanchor/ScannersDB && cd ScannersDB
-python3 tools/where.py 162.142.125.10
-```
-
-A record, shortened ([`data/scanners/censys.yaml`](./data/scanners/censys.yaml)):
-
-```yaml
-name: Censys
-legal_entity: Censys, Inc.
-flag: 🇺🇸
-country: United States
-website: https://censys.com/
-category: search-engine
-status: active
-asn: [AS398324, AS398705, AS398722]
-rdns:
-- '*.censys-scanner.com'
-user_agents:
-- Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
-opt_out: https://docs.censys.com/docs/opt-out-of-data-collection
-ipv4:
-- asn: AS398324
-  isp: Censys, Inc.
-  org: Censys Inc
-  country: US
-  ip:
-  - '66.132.148.0/24'
-  - '66.132.153.0/24'
-  - '162.142.125.0/24'      # ... 12 networks
-- asn: AS398705
-  isp: Censys, Inc.
-  org: Censys, Inc.
-  country: DE
-  ip:
-  - '167.94.146.0/24'
-sources:
-- https://github.com/OpenFilters/internet-scanners/blob/main/censys.nft
-- https://github.com/Connie-Wild/scanner-ip-list/blob/main/censys.txt
-- https://github.com/wdes/security/blob/main/data/scanners/censys.txt
-- https://github.com/cleverg0d/PublicGuard/blob/main/scanners_list.txt
-- https://github.com/cleverg0d/PublicGuard/pull/1
-updated: '2026-10-31'
-```
+> **Data:** every scanner store in YAML [`data/scanners/`](./data/scanners/) ([fields](./data/README.md)), [scanners_v4.txt](./data/lists/scanners_v4.txt), [scanners_v6.txt](./data/lists/scanners_v6.txt), [scanners.csv](./data/lists/scanners.csv), [scanners.json](./data/lists/scanners.json)
 
 ## Scanners
 
-Active scanners, in the combined lists. `IPv4` is the number of networks in the record.
+Active scanners. `IPv4` is the number of networks in the record.
 
 <!-- scanners:start -->
 |   # | Company / resource                                  | Link                                                                          | Flag | Type          |  IPv4 | Record                                                                              |
@@ -261,7 +164,7 @@ Gone or no longer reachable; kept for reference and left out of the combined lis
 ## Cloud ranges
 
 Whole cloud networks that PublicGuard lists as collectors. They hold ordinary customers too, so they are left out of the
-combined lists; [`cloud_v4.txt`](./data/lists/cloud_v4.txt) has them for those who block these clouds anyway.
+combined lists; [`cloud_v4.txt`](./data/lists/cloud_v4.txt) has them separately.
 
 <!-- cloud:start -->
 |   # | Company / resource | Link                                              | Flag | Type  | IPv4 | Record                                            |
@@ -271,18 +174,58 @@ combined lists; [`cloud_v4.txt`](./data/lists/cloud_v4.txt) has them for those w
 |   3 | Tencent Cloud      | [tencentcloud.com](https://www.tencentcloud.com/) | 🇨🇳   | cloud |    5 | [tencent-cloud](data/scanners/tencent-cloud.yaml) |
 <!-- cloud:end -->
 
-## Caveats
+## Quick start
 
-- Blocking scanners keeps services out of search engines; it does not make them safer, and attackers rarely scan from
-  these addresses.
-- The Shadowserver Foundation, ANSSI and NICT scan to warn network owners. Blocking them also stops those warnings.
-- Many scanners run on cloud servers that change hands. Old entries may now belong to someone else;
-  [`tools/check_rdns.py`](./tools/README.md) points out addresses whose PTR names another host.
+**Lists**: [`scanners_v4.txt`](./data/lists/scanners_v4.txt) and [`scanners_v6.txt`](./data/lists/scanners_v6.txt) hold
+every active scanner, one network per line; one scanner only: `data/lists/v4/<id>.txt`, for example
+[`v4/shodan.txt`](./data/lists/v4/shodan.txt).
 
-## Tools
+**Which scanner is this address?**
 
-Python scripts in [`tools/`](./tools/) ([description](./tools/README.md)) download the upstream lists, look up network
-owners, build the lists and these tables, and check the data. `tools/update.sh` runs a full refresh.
+```bash
+git clone https://github.com/cyberanchor/ScannersDB && cd ScannersDB
+python3 tools/where.py 162.142.125.10
+```
+
+A record, shortened ([`data/scanners/censys.yaml`](./data/scanners/censys.yaml)):
+
+```yaml
+name: Censys
+legal_entity: Censys, Inc.
+flag: 🇺🇸
+country: United States
+website: https://censys.com/
+category: search-engine
+status: active
+asn: [AS398324, AS398705, AS398722]
+rdns:
+- '*.censys-scanner.com'
+user_agents:
+- Mozilla/5.0 (compatible; CensysInspect/1.1; +https://about.censys.io/)
+opt_out: https://docs.censys.com/docs/opt-out-of-data-collection
+ipv4:
+- asn: AS398324
+  isp: Censys, Inc.
+  org: Censys Inc
+  country: US
+  ip:
+  - '66.132.148.0/24'
+  - '66.132.153.0/24'
+  - '162.142.125.0/24'      # ... 12 networks
+- asn: AS398705
+  isp: Censys, Inc.
+  org: Censys, Inc.
+  country: DE
+  ip:
+  - '167.94.146.0/24'
+sources:
+- https://github.com/OpenFilters/internet-scanners/blob/main/censys.nft
+- https://github.com/Connie-Wild/scanner-ip-list/blob/main/censys.txt
+- https://github.com/wdes/security/blob/main/data/scanners/censys.txt
+- https://github.com/cleverg0d/PublicGuard/blob/main/scanners_list.txt
+- https://github.com/cleverg0d/PublicGuard/pull/1
+updated: '2026-10-31'
+```
 
 ## Contributors
 

@@ -12,8 +12,8 @@ records, `SCDB_CACHE` at another cache folder (default `~/.cache/scannersdb`).
 | `sources.yaml` | Upstream lists: download address, format, which record each file or section feeds, and the correction rules (networks put under the wrong company, invalid prefixes) |
 | `enrich.py [--refresh] [ID ...]` | Looks up the owner (ASN, ISP, ORG, country) of networks that have none at ip-api.com and regroups the blocks. `--refresh` asks again for every network |
 | `set_fields.py CHANGES.yaml` | Writes hand-checked fields into records (`{id: {field: value}}`, `null` removes a field, `rename: new-id` renames) |
-| `export.py [OUTDIR]` | Builds `data/lists/`: combined lists, nftables table, ipset file, one list per record, CSV and JSON |
-| `readme_table.py [--check]` | Writes the generated parts of `README.md` (counts, scanner tables) and `data/README.md` (sources, corrections) |
+| `export.py [OUTDIR]` | Builds `data/lists/`: combined lists, one list per record, CSV and JSON |
+| `readme_table.py [--check]` | Writes the generated parts of `README.md` (scanner tables) and `data/README.md` (sources, corrections) |
 | `test_data.py [--fix]` | Checks every record, the overlaps between records, `sources.yaml`, `data/lists/` and the README tables. Run it before every commit; `--fix` rewrites records that are only off in format |
 | `where.py ADDRESS ...` | Tells which record holds an address (also `-` to read addresses from stdin, for example from a firewall log) |
 | `check_rdns.py [--limit N] [ID ...]` | Reverse DNS of single addresses against the record's `rdns` patterns. A PTR that names another host hints that a cloud address has been given to someone else. Only reports (`~/.cache/scannersdb/rdns.md`) |

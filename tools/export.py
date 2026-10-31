@@ -2,14 +2,12 @@
 """Build the ready-to-use lists in data/lists/ from data/scanners/.
 
   scanners_v4.txt, scanners_v6.txt   every active record except category cloud, merged into the fewest networks
-  scanners.nft                       the same as an nftables table that drops them (nft -f scanners.nft)
-  scanners.ipset                     the same for ipset restore (sets scannersdb_v4 / scannersdb_v6)
   cloud_v4.txt, cloud_v6.txt         the cloud records only (whole provider ranges, use with care)
   v4/<id>.txt, v6/<id>.txt           one list per record, inactive and cloud records too
   scanners.csv                       one row per network with the record and network owner fields
   scanners.json                      every record with its fields and counts
 
-Plain lists hold one network per line and no comments, so ipset, nft, firewalld and most tools read them as is.
+Plain lists hold one network per line and no comments, so most tools read them as is.
 
 usage: python3 tools/export.py [OUTDIR]     (default data/lists)
 """
@@ -41,60 +39,6 @@ def lines(networks):
 
 def in_combined(rec):
     return rec.get("status") == "active" and rec.get("category") != "cloud"
-
-
-def nft_text(v4, v6, stamp, count):
-    def elements(nets):
-        if not nets:
-            return ""
-        body = ",\n".join("\t\t\t" + scdb.fmt(n) for n in nets)
-        return "\t\telements = {\n%s\n\t\t}\n" % body
-
-    return (
-        "#!/usr/sbin/nft -f\n"
-        "# ScannersDB %s: %d records, %d IPv4 and %d IPv6 networks (cloud ranges and inactive records left out).\n"
-        "# %s\n"
-        "# Load: nft -f scanners.nft (again to update). Remove: nft delete table inet scannersdb\n"
-        "# The input chain drops new connections from the listed networks; add a forward chain the same way on a\n"
-        "# router.\n\n"
-        "table inet scannersdb\n"
-        "delete table inet scannersdb\n\n"
-        "table inet scannersdb {\n"
-        "\tset scanners_v4 {\n\t\ttype ipv4_addr\n\t\tflags interval\n\t\tauto-merge\n%s\t}\n\n"
-        "\tset scanners_v6 {\n\t\ttype ipv6_addr\n\t\tflags interval\n\t\tauto-merge\n%s\t}\n\n"
-        "\tchain input {\n"
-        "\t\ttype filter hook input priority filter - 10; policy accept;\n"
-        "\t\tip saddr @scanners_v4 counter drop\n"
-        "\t\tip6 saddr @scanners_v6 counter drop\n"
-        "\t}\n"
-        "}\n" % (stamp, count, len(v4), len(v6), scdb.REPO, elements(v4), elements(v6)))
-
-
-# Fixed set sizes, so a later file creates the sets with the same options and `ipset restore -exist` accepts it.
-IPSET = {4: ("scannersdb_v4", "inet", 16384, 262144), 6: ("scannersdb_v6", "inet6", 4096, 65536)}
-
-
-def ipset_text(v4, v6, stamp, count):
-    out = io.StringIO()
-    out.write("# ScannersDB %s: %d records, %d IPv4 and %d IPv6 networks. %s\n" % (stamp, count, len(v4), len(v6),
-                                                                                  scdb.REPO))
-    out.write("# Load (again to update): ipset restore -exist < scanners.ipset, then once for example\n")
-    out.write("#   iptables -I INPUT -m set --match-set scannersdb_v4 src -j DROP\n")
-    out.write("#   ip6tables -I INPUT -m set --match-set scannersdb_v6 src -j DROP\n")
-    out.write("# The new entries go into a temporary set that is swapped in, so the set is never empty while loading.\n")
-    for fam, nets in ((4, v4), (6, v6)):
-        name, family, hashsize, maxelem = IPSET[fam]
-        if len(nets) > maxelem:
-            raise SystemExit("export: %d IPv%d networks do not fit ipset maxelem %d" % (len(nets), fam, maxelem))
-        opts = "hash:net family %s hashsize %d maxelem %d" % (family, hashsize, maxelem)
-        out.write("create %s %s\n" % (name, opts))
-        out.write("create %s_new %s\n" % (name, opts))
-        out.write("flush %s_new\n" % name)
-        for n in nets:
-            out.write("add %s_new %s\n" % (name, scdb.fmt(n)))
-        out.write("swap %s_new %s\n" % (name, name))
-        out.write("destroy %s_new\n" % name)
-    return out.getvalue()
 
 
 def csv_text(records):
@@ -129,14 +73,10 @@ def build(outdir):
     """{relative path: text} of every list."""
     records = scdb.load_all()
     files = {}
-    stamp = max((r.get("updated", "") for r in records), default=scdb.today())
     main = [r for r in records if in_combined(r)]
     cloud = [r for r in records if r.get("category") == "cloud"]
-    v4, v6 = combined(main, 4), combined(main, 6)
-    files["scanners_v4.txt"] = lines(v4)
-    files["scanners_v6.txt"] = lines(v6)
-    files["scanners.nft"] = nft_text(v4, v6, stamp, len(main))
-    files["scanners.ipset"] = ipset_text(v4, v6, stamp, len(main))
+    files["scanners_v4.txt"] = lines(combined(main, 4))
+    files["scanners_v6.txt"] = lines(combined(main, 6))
     files["cloud_v4.txt"] = lines(combined(cloud, 4))
     files["cloud_v6.txt"] = lines(combined(cloud, 6))
     for rec in records:

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Write the generated parts of README.md and data/README.md, between <!-- name:start --> and <!-- name:end -->.
 
-  README.md        stats (counts), scanners (active records), inactive, cloud
+  README.md        scanners (active records), inactive, cloud
   data/README.md   sources (from tools/sources.yaml), rules (networks left out or corrected)
 
 Tables are aligned as a monospace editor shows them: emoji and wide characters take two columns.
@@ -91,16 +91,7 @@ def readme_parts(records):
     main = [r for r in records if export.in_combined(r)]
     inactive = [r for r in records if r.get("status") == "inactive" and r.get("category") != "cloud"]
     cloud = [r for r in records if r.get("category") == "cloud"]
-    v4, v6 = export.combined(main, 4), export.combined(main, 6)
-    every4 = sum(len(scdb.nets(r, 4)) for r in records)
-    every6 = sum(len(scdb.nets(r, 6)) for r in records)
-    stamp = max((r.get("updated", "") for r in records), default=scdb.today())
-    stats = ["**%d** records (%d active scanners, %d inactive, %d cloud) · **%s** IPv4 and **%s** IPv6 networks in the "
-             "records · combined list: **%s** IPv4 networks (%s addresses) and **%s** IPv6 networks · updated %s"
-             % (len(records), len(main), len(inactive), len(cloud), num(every4), num(every6), num(len(v4)),
-                num(sum(n.num_addresses for n in v4)), num(len(v6)), stamp)]
     return {
-        "stats": stats,
         "scanners": table(HEADER, record_rows(main), right=(0, 5)),
         "inactive": table(HEADER, record_rows(inactive), right=(0, 5)),
         "cloud": table(HEADER, record_rows(cloud), right=(0, 5)),

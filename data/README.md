@@ -69,8 +69,6 @@ Built by `tools/export.py`; do not edit them by hand.
 | File | Content |
 |---|---|
 | [`lists/scanners_v4.txt`](lists/scanners_v4.txt), [`lists/scanners_v6.txt`](lists/scanners_v6.txt) | Every active record except `cloud`, merged into the fewest networks. One network per line, no comments |
-| [`lists/scanners.nft`](lists/scanners.nft) | The same as an nftables table `inet scannersdb` with two sets and an input chain that drops them |
-| [`lists/scanners.ipset`](lists/scanners.ipset) | The same for `ipset restore` (sets `scannersdb_v4`, `scannersdb_v6`) |
 | [`lists/cloud_v4.txt`](lists/cloud_v4.txt), [`lists/cloud_v6.txt`](lists/cloud_v6.txt) | The `cloud` records only: whole provider ranges, block them only if you know you get nothing from those clouds |
 | [`lists/v4/<id>.txt`](lists/v4/), [`lists/v6/<id>.txt`](lists/v6/) | One list per record, inactive and cloud records included |
 | [`lists/scanners.csv`](lists/scanners.csv) | One row per network: record, legal entity, category, status, network, ASN, ISP, ORG, network country |
