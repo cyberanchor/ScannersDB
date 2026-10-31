@@ -7,6 +7,8 @@ website: https://www.lsu.edu/
 category: university
 status: active
 asn: [AS2055]
+rdns:
+- exiot-fe.cse.lsu.edu
 ipv4:
 - asn: AS2055
   isp: Louisiana State University

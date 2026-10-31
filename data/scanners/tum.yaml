@@ -7,6 +7,8 @@ website: https://www.tum.de/
 category: university
 status: active
 asn: [AS209335]
+rdns:
+- '*.gino-research.net.in.tum.de'
 ipv4:
 - asn: AS12816
   isp: Leibniz-Rechenzentrum

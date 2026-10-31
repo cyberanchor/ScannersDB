@@ -8,7 +8,7 @@ category: company
 status: active
 asn: [AS136180]
 rdns:
-- '*.security.ipip.net'
+- '*.ipip.net'
 user_agents:
 - HTTP Banner Detection (https://security.ipip.net)
 ipv4:

@@ -7,6 +7,8 @@ website: https://www.ucsb.edu/
 category: university
 status: active
 asn: [AS131]
+rdns:
+- '*.unfiltered.seclab.cs.ucsb.edu'
 ipv4:
 - asn: AS131
   isp: University of California, Santa Barbara

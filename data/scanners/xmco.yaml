@@ -6,11 +6,13 @@ country: France
 website: https://www.xmco.fr/
 category: company
 status: active
+rdns:
+- serenety-node*.xmco.fr
 user_agents:
 - Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:103.0) Gecko/20100101 Firefox/103.0 abuse.xmco.fr
 - abuse.xmco.fr
 opt_out: https://abuse.xmco.fr/
-note: RCS Paris 430137711. Does not identify itself through PTR records; the addresses redirect to abuse.xmco.fr.
+note: RCS Paris 430137711. Only part of the addresses has PTR records; the addresses redirect to abuse.xmco.fr.
 ipv4:
 - asn: AS12876
   isp: Online

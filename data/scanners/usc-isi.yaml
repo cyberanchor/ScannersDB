@@ -9,7 +9,8 @@ status: active
 asn: [AS4, AS226]
 rdns:
 - '*.ant.isi.edu'
-- pinger*.netsec.colostate.edu
+- isi-pinger*.colostate.edu
+- '*-isi-edu-pinger.as1103.net'
 note: 'Includes vantage points of the ANT project hosted by partners: Colorado State University, the University of Memphis, the Athens University of Economics and Business, SURF (Netherlands) and WIDE (Japan).'
 ipv4:
 - asn: AS4

@@ -7,6 +7,8 @@ website: https://ucsd.edu/
 category: university
 status: active
 asn: [AS7377]
+rdns:
+- research-scan.sysnet.ucsd.edu
 ipv4:
 - asn: AS7377
   isp: University of California, San Diego

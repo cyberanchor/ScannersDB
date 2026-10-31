@@ -6,6 +6,8 @@ country: Italy
 website: https://www.polimi.it/
 category: university
 status: active
+rdns:
+- deib-srv-widescan.certificate-survey.it
 ipv4:
 - asn: AS137
   isp: CILEA

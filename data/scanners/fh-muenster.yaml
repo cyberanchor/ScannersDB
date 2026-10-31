@@ -6,6 +6,8 @@ country: Germany
 website: https://www.fh-muenster.de/
 category: university
 status: active
+rdns:
+- fb02itsscan*.fh-muenster.de
 ipv4:
 - asn: AS680
   isp: Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.

@@ -6,6 +6,9 @@ country: Austria
 website: https://www.univie.ac.at/
 category: university
 status: active
+rdns:
+- aim.sba-research.org
+note: Includes a scanner of SBA Research (aim.sba-research.org) that OpenFilters lists under the University of Vienna.
 ipv4:
 - asn: AS1764
   isp: Next Layer Telekommunikationsdienstleistungs- und Beratungs GmbH

@@ -6,6 +6,8 @@ country: United Kingdom
 website: https://www.cambridgecybercrime.uk/
 category: university
 status: active
+rdns:
+- internet.wide.scan.using.dns-oarc.blacklist.cl.cam.ac.uk
 ipv4:
 - asn: AS786
   isp: University of Cambridge Computer Laboratory

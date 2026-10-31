@@ -7,7 +7,9 @@ website: https://www.alphastrike.io/
 category: company
 status: active
 asn: [AS42969, AS208843]
-note: Does not identify itself through PTR records.
+rdns:
+- scan*.alphastrike.io
+note: Only part of the addresses has PTR records.
 ipv4:
 - asn: AS25504
   isp: Vautron Rechenzentrum AG

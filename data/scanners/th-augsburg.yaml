@@ -6,6 +6,8 @@ country: Germany
 website: https://www.tha.de/
 category: university
 status: active
+rdns:
+- maveric.net.hs-augsburg.de
 ipv4:
 - asn: AS680
   isp: Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.

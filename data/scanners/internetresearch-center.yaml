@@ -3,6 +3,8 @@ name: Internet Scanning Project (internetresearch.center)
 website: https://internetresearch.center/
 category: research
 status: active
+rdns:
+- '*.internetresearch.center'
 ipv4:
 - asn: AS14061
   isp: DigitalOcean, LLC

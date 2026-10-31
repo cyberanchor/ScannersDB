@@ -8,6 +8,7 @@ category: company
 status: active
 rdns:
 - '*.crawl.securitytrails.com'
+- about-asi.recordedfuture.com
 user_agents:
 - RecordedFuture Global Inventory Crawler
 note: 'Requests carry the header "X-Scanned-By: RecordedFuture-Global Inventory".'

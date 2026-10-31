@@ -2683,7 +2683,10 @@
    "AS42969",
    "AS208843"
   ],
-  "note": "Does not identify itself through PTR records.",
+  "rdns": [
+   "scan*.alphastrike.io"
+  ],
+  "note": "Only part of the addresses has PTR records.",
   "ipv4": [
    {
     "asn": "AS25504",
@@ -2754,6 +2757,9 @@
   "status": "active",
   "asn": [
    "AS202214"
+  ],
+  "rdns": [
+   "*.cert.ssi.gouv.fr"
   ],
   "opt_out": "https://www.cert.ssi.gouv.fr/scans/",
   "note": "The French national cybersecurity agency scans to warn owners of exposed French systems. AS202214 belongs to its parent, the Secrétariat général de la défense et de la sécurité nationale.",
@@ -16139,6 +16145,9 @@
   "website": "https://www.cambridgecybercrime.uk/",
   "category": "university",
   "status": "active",
+  "rdns": [
+   "internet.wide.scan.using.dns-oarc.blacklist.cl.cam.ac.uk"
+  ],
   "ipv4": [
    {
     "asn": "AS786",
@@ -16457,7 +16466,10 @@
   "website": "https://www.crowdstrike.com/",
   "category": "company",
   "status": "active",
-  "note": "Does not identify itself through PTR records; the scanning hosts serve a page naming CrowdStrike Falcon Surface.",
+  "rdns": [
+   "scanner-*.reposify.net"
+  ],
+  "note": "The PTR records name reposify.net: Falcon Surface is based on Reposify, which CrowdStrike bought in 2022. The scanning hosts serve a page naming CrowdStrike Falcon Surface.",
   "ipv4": [
    {
     "asn": "AS14618",
@@ -17521,7 +17533,10 @@
   "name": "\"About this DNS measurement traffic\"",
   "category": "unknown",
   "status": "active",
-  "note": "One address without PTR that serves a page titled \"About this DNS measurement traffic\".",
+  "rdns": [
+   "dns.research.measurement"
+  ],
+  "note": "One address that serves a page titled \"About this DNS measurement traffic\".",
   "ipv4": [
    {
     "asn": "AS45102",
@@ -17698,6 +17713,9 @@
   "website": "https://www.dtu.dk/",
   "category": "university",
   "status": "active",
+  "rdns": [
+   "dtuscanner.compute.dtu.dk"
+  ],
   "ipv4": [
    {
     "asn": "AS1835",
@@ -17885,6 +17903,9 @@
   "website": "https://www.fh-muenster.de/",
   "category": "university",
   "status": "active",
+  "rdns": [
+   "fb02itsscan*.fh-muenster.de"
+  ],
   "ipv4": [
    {
     "asn": "AS680",
@@ -18653,6 +18674,12 @@
   "status": "active",
   "asn": [
    "AS2637"
+  ],
+  "rdns": [
+   "researchscan*.cc.gatech.edu",
+   "scanner*.cc.gatech.edu",
+   "ioda-active-probing*.inetintel.cc.gatech.edu",
+   "traversa.cc.gatech.edu"
   ],
   "ipv4": [
    {
@@ -23086,6 +23113,9 @@
   "website": "https://internetresearch.center/",
   "category": "research",
   "status": "active",
+  "rdns": [
+   "*.internetresearch.center"
+  ],
   "ipv4": [
    {
     "asn": "AS14061",
@@ -41922,7 +41952,7 @@
    "AS136180"
   ],
   "rdns": [
-   "*.security.ipip.net"
+   "*.ipip.net"
   ],
   "user_agents": [
    "HTTP Banner Detection (https://security.ipip.net)"
@@ -43128,6 +43158,9 @@
   "asn": [
    "AS2055"
   ],
+  "rdns": [
+   "exiot-fe.cse.lsu.edu"
+  ],
   "ipv4": [
    {
     "asn": "AS2055",
@@ -43525,6 +43558,10 @@
   "website": "https://www.mpi-inf.mpg.de/",
   "category": "university",
   "status": "active",
+  "rdns": [
+   "inet-research-scan-*.mpi-inf.mpg.de",
+   "inet-*.dyn.mpi-klsb.mpg.de"
+  ],
   "note": "PublicGuard pull request 1 lists the whole institute network 139.19.0.0/16 (announced by DFN, AS680); OpenFilters lists single scanner addresses, some of them in cloud networks.",
   "ipv4": [
    {
@@ -44519,6 +44556,9 @@
   "website": "https://www.uni-paderborn.de/",
   "category": "university",
   "status": "active",
+  "rdns": [
+   "syssec-scanner*.cs.uni-paderborn.de"
+  ],
   "ipv4": [
    {
     "asn": "AS680",
@@ -44730,6 +44770,9 @@
   "website": "https://www.polimi.it/",
   "category": "university",
   "status": "active",
+  "rdns": [
+   "deib-srv-widescan.certificate-survey.it"
+  ],
   "ipv4": [
    {
     "asn": "AS137",
@@ -44960,7 +45003,8 @@
   "category": "company",
   "status": "active",
   "rdns": [
-   "*.crawl.securitytrails.com"
+   "*.crawl.securitytrails.com",
+   "about-asi.recordedfuture.com"
   ],
   "user_agents": [
    "RecordedFuture Global Inventory Crawler"
@@ -46092,6 +46136,11 @@
   "asn": [
    "AS29484"
   ],
+  "rdns": [
+   "*.softsec.ruhr-uni-bochum.de",
+   "node*-scan.casa-hpc.ruhr-uni-bochum.de",
+   "research-scanner-dfn*.syssec.rub.de"
+  ],
   "ipv4": [
    {
     "asn": "AS680",
@@ -46926,6 +46975,9 @@
   "status": "active",
   "asn": [
    "AS32"
+  ],
+  "rdns": [
+   "research.esrg.stanford.edu"
   ],
   "ipv4": [
    {
@@ -56864,6 +56916,9 @@
   "website": "https://www.tha.de/",
   "category": "university",
   "status": "active",
+  "rdns": [
+   "maveric.net.hs-augsburg.de"
+  ],
   "ipv4": [
    {
     "asn": "AS680",
@@ -56962,6 +57017,11 @@
   "website": "https://tu-dresden.de/",
   "category": "university",
   "status": "active",
+  "rdns": [
+   "*.research.netd.cs.tu-dresden.de",
+   "research-scan*.inet.haw-hamburg.de"
+  ],
+  "note": "Includes one scanner of HAW Hamburg (research-scan1.inet.haw-hamburg.de) that OpenFilters lists under TU Dresden.",
   "ipv4": [
    {
     "asn": "AS680",
@@ -57009,6 +57069,9 @@
   "status": "active",
   "asn": [
    "AS209335"
+  ],
+  "rdns": [
+   "*.gino-research.net.in.tum.de"
   ],
   "ipv4": [
    {
@@ -57078,6 +57141,9 @@
   "asn": [
    "AS131"
   ],
+  "rdns": [
+   "*.unfiltered.seclab.cs.ucsb.edu"
+  ],
   "ipv4": [
    {
     "asn": "AS131",
@@ -57110,6 +57176,9 @@
   "asn": [
    "AS7377"
   ],
+  "rdns": [
+   "research-scan.sysnet.ucsd.edu"
+  ],
   "ipv4": [
    {
     "asn": "AS7377",
@@ -57141,6 +57210,10 @@
   "status": "active",
   "asn": [
    "AS27"
+  ],
+  "rdns": [
+   "zmap*.umiacs.umd.edu",
+   "research-scan-*.umd-grpc-research.org"
   ],
   "ipv4": [
    {
@@ -57228,6 +57301,10 @@
   "website": "https://www.univie.ac.at/",
   "category": "university",
   "status": "active",
+  "rdns": [
+   "aim.sba-research.org"
+  ],
+  "note": "Includes a scanner of SBA Research (aim.sba-research.org) that OpenFilters lists under the University of Vienna.",
   "ipv4": [
    {
     "asn": "AS1764",
@@ -57312,7 +57389,8 @@
   ],
   "rdns": [
    "*.ant.isi.edu",
-   "pinger*.netsec.colostate.edu"
+   "isi-pinger*.colostate.edu",
+   "*-isi-edu-pinger.as1103.net"
   ],
   "note": "Includes vantage points of the ANT project hosted by partners: Colorado State University, the University of Memphis, the Athens University of Economics and Business, SURF (Netherlands) and WIDE (Japan).",
   "ipv4": [
@@ -57410,6 +57488,12 @@
   "asn": [
    "AS1133",
    "AS1149"
+  ],
+  "rdns": [
+   "anycast-testbed.nl",
+   "tangled.dacs.utwente.nl",
+   "*.measurements.dacs.utwente.nl",
+   "please-see-measurements.internet-transparency.org"
   ],
   "note": "Includes the addresses of its anycast testbed on Vultr. AS1133 (UTWENTE-AS) and AS1149 are registered through SURF, the Dutch research network; SURF lends AS1149 to the university for research. A few measurement addresses are announced by SURF's own AS1103.",
   "ipv4": [
@@ -58340,12 +58424,15 @@
   "website": "https://www.xmco.fr/",
   "category": "company",
   "status": "active",
+  "rdns": [
+   "serenety-node*.xmco.fr"
+  ],
   "user_agents": [
    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:103.0) Gecko/20100101 Firefox/103.0 abuse.xmco.fr",
    "abuse.xmco.fr"
   ],
   "opt_out": "https://abuse.xmco.fr/",
-  "note": "RCS Paris 430137711. Does not identify itself through PTR records; the addresses redirect to abuse.xmco.fr.",
+  "note": "RCS Paris 430137711. Only part of the addresses has PTR records; the addresses redirect to abuse.xmco.fr.",
   "ipv4": [
    {
     "asn": "AS12876",

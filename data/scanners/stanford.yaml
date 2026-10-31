@@ -7,6 +7,8 @@ website: https://www.stanford.edu/
 category: university
 status: active
 asn: [AS32]
+rdns:
+- research.esrg.stanford.edu
 ipv4:
 - asn: AS32
   isp: Stanford University

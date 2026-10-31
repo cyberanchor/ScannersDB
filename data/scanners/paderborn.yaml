@@ -6,6 +6,8 @@ country: Germany
 website: https://www.uni-paderborn.de/
 category: university
 status: active
+rdns:
+- syssec-scanner*.cs.uni-paderborn.de
 ipv4:
 - asn: AS680
   isp: Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.

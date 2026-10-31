@@ -6,7 +6,9 @@ country: United States
 website: https://www.crowdstrike.com/
 category: company
 status: active
-note: Does not identify itself through PTR records; the scanning hosts serve a page naming CrowdStrike Falcon Surface.
+rdns:
+- scanner-*.reposify.net
+note: 'The PTR records name reposify.net: Falcon Surface is based on Reposify, which CrowdStrike bought in 2022. The scanning hosts serve a page naming CrowdStrike Falcon Surface.'
 ipv4:
 - asn: AS14618
   isp: Amazon.com

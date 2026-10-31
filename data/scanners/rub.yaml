@@ -7,6 +7,10 @@ website: https://www.ruhr-uni-bochum.de/
 category: university
 status: active
 asn: [AS29484]
+rdns:
+- '*.softsec.ruhr-uni-bochum.de'
+- node*-scan.casa-hpc.ruhr-uni-bochum.de
+- research-scanner-dfn*.syssec.rub.de
 ipv4:
 - asn: AS680
   isp: Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.

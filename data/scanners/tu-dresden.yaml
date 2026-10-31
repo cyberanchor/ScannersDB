@@ -6,6 +6,10 @@ country: Germany
 website: https://tu-dresden.de/
 category: university
 status: active
+rdns:
+- '*.research.netd.cs.tu-dresden.de'
+- research-scan*.inet.haw-hamburg.de
+note: Includes one scanner of HAW Hamburg (research-scan1.inet.haw-hamburg.de) that OpenFilters lists under TU Dresden.
 ipv4:
 - asn: AS680
   isp: Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.

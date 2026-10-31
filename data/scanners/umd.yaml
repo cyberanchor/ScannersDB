@@ -7,6 +7,9 @@ website: https://umd.edu/
 category: university
 status: active
 asn: [AS27]
+rdns:
+- zmap*.umiacs.umd.edu
+- research-scan-*.umd-grpc-research.org
 ipv4:
 - asn: AS27
   isp: University of Maryland

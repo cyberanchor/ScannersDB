@@ -7,6 +7,11 @@ website: https://www.gatech.edu/
 category: university
 status: active
 asn: [AS2637]
+rdns:
+- researchscan*.cc.gatech.edu
+- scanner*.cc.gatech.edu
+- ioda-active-probing*.inetintel.cc.gatech.edu
+- traversa.cc.gatech.edu
 ipv4:
 - asn: AS2637
   isp: Georgia Institute of Technology

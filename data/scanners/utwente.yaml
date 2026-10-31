@@ -7,6 +7,11 @@ website: https://www.utwente.nl/
 category: university
 status: active
 asn: [AS1133, AS1149]
+rdns:
+- anycast-testbed.nl
+- tangled.dacs.utwente.nl
+- '*.measurements.dacs.utwente.nl'
+- please-see-measurements.internet-transparency.org
 note: Includes the addresses of its anycast testbed on Vultr. AS1133 (UTWENTE-AS) and AS1149 are registered through SURF, the Dutch research network; SURF lends AS1149 to the university for research. A few measurement addresses are announced by SURF's own AS1103.
 ipv4:
 - asn: AS1103

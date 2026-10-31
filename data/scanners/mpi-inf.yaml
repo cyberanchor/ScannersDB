@@ -6,6 +6,9 @@ country: Germany
 website: https://www.mpi-inf.mpg.de/
 category: university
 status: active
+rdns:
+- inet-research-scan-*.mpi-inf.mpg.de
+- inet-*.dyn.mpi-klsb.mpg.de
 note: PublicGuard pull request 1 lists the whole institute network 139.19.0.0/16 (announced by DFN, AS680); OpenFilters lists single scanner addresses, some of them in cloud networks.
 ipv4:
 - asn: AS680

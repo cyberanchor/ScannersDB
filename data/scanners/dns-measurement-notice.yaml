@@ -2,7 +2,9 @@
 name: '"About this DNS measurement traffic"'
 category: unknown
 status: active
-note: One address without PTR that serves a page titled "About this DNS measurement traffic".
+rdns:
+- dns.research.measurement
+note: One address that serves a page titled "About this DNS measurement traffic".
 ipv4:
 - asn: AS45102
   isp: Alibaba Cloud LLC

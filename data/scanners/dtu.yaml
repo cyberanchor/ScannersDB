@@ -6,6 +6,8 @@ country: Denmark
 website: https://www.dtu.dk/
 category: university
 status: active
+rdns:
+- dtuscanner.compute.dtu.dk
 ipv4:
 - asn: AS1835
   isp: Forskningsnettet - Danish network for Research and Education
