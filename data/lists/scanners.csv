@@ -14298,12 +14298,12 @@ dtu,Technical University of Denmark,Danmarks Tekniske Universitet,Denmark,univer
 edgewatch,Edgewatch,,Spain,company,active,ipv4,185.114.175.0/24,AS197183,Occentus Network SL,Edgewatch Security Intelligence,ES
 entelijan,Entelijan,Entelijan Inc.,,company,active,ipv4,192.158.140.0/24,AS23470,ReliableSite.Net LLC,Entelijan Inc,US
 eset,ESET Research,"ESET, spol. s r.o.",Slovakia,company,active,ipv4,142.93.146.198,AS14061,"DigitalOcean, LLC","DigitalOcean, LLC",CA
-f6,F6,ООО «Ф6» (F6 LLC),Russia,company,active,ipv4,5.101.64.6/31,AS34665,Petersburg Internet Network ltd,PIN DC,RU
-f6,F6,ООО «Ф6» (F6 LLC),Russia,company,active,ipv4,46.161.50.108/31,AS34665,Petersburg Internet Network ltd,PIN DC,RU
-f6,F6,ООО «Ф6» (F6 LLC),Russia,company,active,ipv4,95.215.0.144/31,AS44050,PIN-DATACENTER,,RU
-f6,F6,ООО «Ф6» (F6 LLC),Russia,company,active,ipv4,176.32.195.85,AS197834,Ucom CJSC,Interactive TV LLC,AM
-f6,F6,ООО «Ф6» (F6 LLC),Russia,company,active,ipv4,45.91.64.6/31,AS214664,JSC Buduschee,TopTeleCom LLC,RU
-f6,F6,ООО «Ф6» (F6 LLC),Russia,company,active,ipv4,45.91.64.8,AS214664,JSC Buduschee,TopTeleCom LLC,RU
+f6,F6,АО «Ф6» (F6 JSC),Russia,company,active,ipv4,5.101.64.6/31,AS34665,Petersburg Internet Network ltd,PIN DC,RU
+f6,F6,АО «Ф6» (F6 JSC),Russia,company,active,ipv4,46.161.50.108/31,AS34665,Petersburg Internet Network ltd,PIN DC,RU
+f6,F6,АО «Ф6» (F6 JSC),Russia,company,active,ipv4,95.215.0.144/31,AS44050,PIN-DATACENTER,,RU
+f6,F6,АО «Ф6» (F6 JSC),Russia,company,active,ipv4,176.32.195.85,AS197834,Ucom CJSC,Interactive TV LLC,AM
+f6,F6,АО «Ф6» (F6 JSC),Russia,company,active,ipv4,45.91.64.6/31,AS214664,JSC Buduschee,TopTeleCom LLC,RU
+f6,F6,АО «Ф6» (F6 JSC),Russia,company,active,ipv4,45.91.64.8,AS214664,JSC Buduschee,TopTeleCom LLC,RU
 fh-muenster,FH Münster,FH Münster University of Applied Sciences,Germany,university,active,ipv4,193.174.89.19,AS680,Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.,Fachhochschule Muenster,DE
 fh-muenster,FH Münster,FH Münster University of Applied Sciences,Germany,university,active,ipv6,2a02:c6a0:4001:b000::ff,AS680,Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.,FH Muenster,DE
 fh-muenster,FH Münster,FH Münster University of Applied Sciences,Germany,university,active,ipv6,2a02:c6a0:4001:b000:dead::99ae,AS680,Verein zur Foerderung eines Deutschen Forschungsnetzes e.V.,FH Muenster,DE

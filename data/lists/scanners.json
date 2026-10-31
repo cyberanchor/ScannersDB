@@ -17805,7 +17805,7 @@
  {
   "id": "f6",
   "name": "F6",
-  "legal_entity": "ООО «Ф6» (F6 LLC)",
+  "legal_entity": "АО «Ф6» (F6 JSC)",
   "flag": "🇷🇺",
   "country": "Russia",
   "website": "https://www.f6.ru/",
@@ -57293,14 +57293,13 @@
   "status": "active",
   "asn": [
    "AS4",
-   "AS226",
-   "AS2500"
+   "AS226"
   ],
   "rdns": [
    "*.ant.isi.edu",
    "pinger*.netsec.colostate.edu"
   ],
-  "note": "Includes vantage points of the ANT project hosted by partners (Colorado State University, University of Memphis, WIDE).",
+  "note": "Includes vantage points of the ANT project hosted by partners: Colorado State University, the University of Memphis, the Athens University of Economics and Business, SURF (Netherlands) and WIDE (Japan).",
   "ipv4": [
    {
     "asn": "AS4",
@@ -57394,9 +57393,10 @@
   "category": "university",
   "status": "active",
   "asn": [
-   "AS1103"
+   "AS1133",
+   "AS1149"
   ],
-  "note": "Includes the addresses of its anycast testbed on Vultr.",
+  "note": "Includes the addresses of its anycast testbed on Vultr. AS1133 (UTWENTE-AS) and AS1149 are registered through SURF, the Dutch research network; SURF lends AS1149 to the university for research. A few measurement addresses are announced by SURF's own AS1103.",
   "ipv4": [
    {
     "asn": "AS1103",
