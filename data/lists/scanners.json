@@ -3221,10 +3221,13 @@
   "website": "https://b621.net/",
   "category": "hobby",
   "status": "active",
+  "asn": [
+   "AS206924"
+  ],
   "rdns": [
    "hilbert-mapper-icmp.b621.net"
   ],
-  "note": "ICMP scans for a Hilbert-curve map of the address space.",
+  "note": "ICMP scans for a Hilbert-curve map of the address space. b621.net is the infrastructure domain of benjojo.co.uk.",
   "ipv4": [
    {
     "asn": "AS206924",
@@ -15641,6 +15644,9 @@
   "website": "https://www.internet-census.org/",
   "category": "company",
   "status": "active",
+  "asn": [
+   "AS211680"
+  ],
   "rdns": [
    "*.internet-census.org"
   ],
@@ -16732,6 +16738,9 @@
   "website": "https://www.cyberscan.io/",
   "category": "company",
   "status": "active",
+  "asn": [
+   "AS207626"
+  ],
   "rdns": [
    "scan01.cyberscan.io"
   ],
@@ -17811,6 +17820,9 @@
   "website": "https://www.f6.ru/",
   "category": "company",
   "status": "active",
+  "asn": [
+   "AS214664"
+  ],
   "rdns": [
    "scan.f6.security"
   ],
@@ -43145,6 +43157,9 @@
   "website": "https://gtidocs.virustotal.com/docs/asm-scan-ranges",
   "category": "company",
   "status": "active",
+  "asn": [
+   "AS33715"
+  ],
   "note": "Does not identify itself through PTR records.",
   "ipv4": [
    {

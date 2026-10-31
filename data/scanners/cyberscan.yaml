@@ -6,6 +6,7 @@ country: Germany
 website: https://www.cyberscan.io/
 category: company
 status: active
+asn: [AS207626]
 rdns:
 - scan01.cyberscan.io
 ipv4:

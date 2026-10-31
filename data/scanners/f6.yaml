@@ -6,6 +6,7 @@ country: Russia
 website: https://www.f6.ru/
 category: company
 status: active
+asn: [AS214664]
 rdns:
 - scan.f6.security
 note: The former Russian business of Group-IB, called F.A.C.C.T. from 2023 and renamed F6 in 2024.

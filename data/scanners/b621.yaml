@@ -3,9 +3,10 @@ name: b621.net hilbert-mapper
 website: https://b621.net/
 category: hobby
 status: active
+asn: [AS206924]
 rdns:
 - hilbert-mapper-icmp.b621.net
-note: ICMP scans for a Hilbert-curve map of the address space.
+note: ICMP scans for a Hilbert-curve map of the address space. b621.net is the infrastructure domain of benjojo.co.uk.
 ipv4:
 - asn: AS206924
   isp: Ben Cartwright-Cox

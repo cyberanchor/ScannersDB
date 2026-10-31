@@ -6,6 +6,7 @@ country: United States
 website: https://www.internet-census.org/
 category: company
 status: active
+asn: [AS211680]
 rdns:
 - '*.internet-census.org'
 user_agents:
