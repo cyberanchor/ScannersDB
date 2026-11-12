@@ -229,7 +229,7 @@ updated: '2026-10-31'
 
 ## Donate
 
-If ScannersDB is useful to you, you can support it with Monero (XMR):
+Support this project with Monero (XMR):
 
 ```
 4BEb8AUfSwQbGaHSVnBn2sMkFsYvrA6Eq4UyEf3JtcEZJd9eSm96YiZZwMWunKq6fUZSuAomwY4P835ybppBxi3NRY2ncMY
