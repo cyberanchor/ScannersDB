@@ -1,0 +1,50 @@
+# ScannersDB record; fields are described in data/README.md
+name: Cert Spotter
+website: https://sslmate.com/certspotter/
+category: company
+status: active
+rdns:
+- '*.scanner.certspotter.com'
+note: TLS certificate monitor of SSLMate. Each scanner (na1, emea2, apac1 ...) serves a page saying it connects to public TLS endpoints of Cert Spotter customers to check certificate installation and expiry. Found by a PTR sweep of all IPv4 networks of AS63949 (Akamai/Linode) on 2026-11-23.
+ipv4:
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode, LLC
+  country: AU
+  ip:
+  - '194.195.126.19'
+- asn: AS63949
+  isp: Akamai Technologies
+  org: Linode
+  country: CA
+  ip:
+  - '172.105.22.35'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode
+  country: DE
+  ip:
+  - '45.79.249.104'
+- asn: AS63949
+  isp: Linode
+  org: Linode, LLC
+  country: GB
+  ip:
+  - '178.79.191.91'
+- asn: AS63949
+  isp: Akamai Technologies
+  org: Linode
+  country: JP
+  ip:
+  - '172.104.70.26'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode
+  country: US
+  ip:
+  - '173.230.156.227'
+  - '198.58.120.104'
+sources:
+- https://sslmate.com/certspotter/
+- https://emea2.scanner.certspotter.com/
+updated: '2026-11-23'

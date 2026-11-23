@@ -1,0 +1,102 @@
+# ScannersDB record; fields are described in data/README.md
+name: SOCRadar
+website: https://socradar.io/
+category: company
+status: active
+rdns:
+- '*.socradar-curiosity-wide-scan-project.socradar.com'
+note: CURIOSITY Wide Scan Project of the SOCRadar threat intelligence and attack surface platform. The PTR is the address followed by socradar-curiosity-wide-scan-project.socradar.com, and that name serves a page about the project; SOCRadar says its scanner addresses are rotated. Found by a PTR sweep of all IPv4 networks of AS63949 (Akamai/Linode) on 2026-11-23.
+ipv4:
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode, LLC
+  country: AU
+  ip:
+  - '194.195.252.210'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: BR
+  ip:
+  - '172.233.26.186'
+- asn: AS63949
+  isp: Akamai Technologies
+  org: Linode
+  country: CA
+  ip:
+  - '172.105.9.235'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode
+  country: CA
+  ip:
+  - '192.53.121.87'
+- asn: AS63949
+  isp: Akamai Technologies
+  org: Linode
+  country: DE
+  ip:
+  - '172.105.73.148'
+  - '172.105.78.101'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode
+  country: DE
+  ip:
+  - '85.90.244.133'
+  - '143.42.19.122'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: ES
+  ip:
+  - '172.233.111.227'
+  - '172.233.117.214'
+- asn: AS63949
+  isp: Akamai Technologies
+  org: Linode, LLC
+  country: GB
+  ip:
+  - '139.162.225.221'
+- asn: AS63949
+  isp: Akamai Technologies
+  org: Linode
+  country: IN
+  ip:
+  - '172.105.56.8'
+  - '172.105.58.98'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: IT
+  ip:
+  - '172.232.221.148'
+- asn: AS63949
+  isp: Akamai Technologies
+  org: Linode
+  country: JP
+  ip:
+  - '172.104.75.183'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: NL
+  ip:
+  - '172.233.62.80'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: US
+  ip:
+  - '172.232.160.26'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode
+  country: US
+  ip:
+  - '45.79.44.78'
+  - '45.79.173.230'
+  - '45.79.190.133'
+sources:
+- https://socradar-curiosity-wide-scan-project.socradar.com/
+updated: '2026-11-23'
