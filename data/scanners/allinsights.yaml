@@ -1,0 +1,47 @@
+# ScannersDB record; fields are described in data/README.md
+name: AllInsights
+website: https://allinsights.one/
+category: unknown
+status: active
+rdns:
+- '*.scanner.infra.allinsights.one'
+note: Hosts named <32 hex digits>.scanner.infra.allinsights.one. Found by a PTR sweep of all IPv4 networks of AS63949 (Akamai/Linode) on 2026-11-23. The domain (Porkbun) serves no page and the operator says nothing about itself.
+ipv4:
+- asn: AS63949
+  isp: Akamai Technologies
+  org: Linode
+  country: DE
+  ip:
+  - '172.104.245.219'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode
+  country: DE
+  ip:
+  - '139.144.160.149'
+  - '139.162.153.147'
+  - '139.162.154.151'
+  - '139.162.178.175'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode
+  country: JP
+  ip:
+  - '139.162.109.147'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: SE
+  ip:
+  - '172.232.146.37'
+  - '172.232.149.33'
+  - '172.234.103.151'
+- asn: AS63949
+  isp: Akamai Technologies
+  org: Linode
+  country: SG
+  ip:
+  - '172.104.58.175'
+sources:
+- https://allinsights.one/
+updated: '2026-11-23'

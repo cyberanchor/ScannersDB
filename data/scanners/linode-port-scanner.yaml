@@ -1,0 +1,169 @@
+# ScannersDB record; fields are described in data/README.md
+name: Akamai Connected Cloud (Linode) port scanner
+legal_entity: Akamai Technologies, Inc.
+flag: 🇺🇸
+country: United States
+website: https://www.linode.com/
+category: company
+status: active
+rdns:
+- port-scanner-*.prod.linode.com
+note: Port scanners of the cloud provider itself, one port-scanner-worker-1 per Linode data centre (atl1, ams3, bom2, cgk1 ...) and one port-scanner-master. Found by a PTR sweep of all IPv4 networks of AS63949 (Akamai/Linode) on 2026-11-23. Akamai does not document what they scan; they run inside Linode networks, so blocking them only matters for hosts outside Linode.
+ipv4:
+- asn: AS63949
+  isp: Akamai Technologies
+  org: Linode
+  country: AU
+  ip:
+  - '172.105.173.121'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: AU
+  ip:
+  - '104.67.47.20'
+  - '172.236.62.208'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: BR
+  ip:
+  - '172.233.17.40'
+- asn: AS63949
+  isp: Akamai Technologies
+  org: Linode
+  country: CA
+  ip:
+  - '172.105.20.91'
+- asn: AS63949
+  isp: Akamai Technologies
+  org: Linode
+  country: DE
+  ip:
+  - '172.105.83.7'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: DE
+  ip:
+  - '104.105.20.247'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: ES
+  ip:
+  - '172.233.98.167'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: FR
+  ip:
+  - '172.232.61.96'
+  - '172.239.9.232'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: GB
+  ip:
+  - '172.239.118.82'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode, LLC
+  country: GB
+  ip:
+  - '88.80.191.128'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: ID
+  ip:
+  - '172.235.254.217'
+- asn: AS63949
+  isp: Akamai Technologies
+  org: Linode
+  country: IN
+  ip:
+  - '172.105.253.168'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: IN
+  ip:
+  - '172.232.96.99'
+  - '172.236.184.186'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: IT
+  ip:
+  - '172.232.214.150'
+- asn: AS63949
+  isp: Akamai Technologies
+  org: Linode
+  country: JP
+  ip:
+  - '172.104.89.59'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: JP
+  ip:
+  - '172.234.95.124'
+  - '172.238.22.185'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: NL
+  ip:
+  - '172.235.168.132'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: 'NO'
+  ip:
+  - '172.238.141.152'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: SE
+  ip:
+  - '172.234.109.43'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: SG
+  ip:
+  - '172.236.144.181'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode
+  country: SG
+  ip:
+  - '139.162.54.84'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Akamai Technologies, Inc.
+  country: US
+  ip:
+  - '104.66.178.140'
+  - '172.233.138.88'
+  - '172.233.162.89'
+  - '172.234.45.178'
+  - '172.234.128.221'
+  - '172.234.240.161'
+  - '172.236.106.92'
+  - '172.238.190.19'
+  - '172.238.190.40'
+  - '172.239.142.23'
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode
+  country: US
+  ip:
+  - '45.56.115.251'
+  - '66.175.216.94'
+  - '96.126.126.167'
+  - '173.255.227.68'
+sources:
+- https://bgp.he.net/AS63949#_prefixes
+updated: '2026-11-23'

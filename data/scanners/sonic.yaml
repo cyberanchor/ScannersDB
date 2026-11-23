@@ -1,0 +1,21 @@
+# ScannersDB record; fields are described in data/README.md
+name: Sonic (offnet-scand)
+flag: 🇺🇸
+country: United States
+website: https://www.sonic.com/
+category: company
+status: active
+rdns:
+- offnet-scand*.noc.sonic.net
+note: Two Linode servers of the network operations centre of the US internet provider Sonic, named offnet-scand.noc.sonic.net and offnet-scand-scanner.noc.sonic.net; the purpose is not documented. Found by a PTR sweep of all IPv4 networks of AS63949 (Akamai/Linode) on 2026-11-23.
+ipv4:
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode
+  country: US
+  ip:
+  - '45.33.63.59'
+  - '192.155.84.154'
+sources:
+- https://www.sonic.com/
+updated: '2026-11-23'

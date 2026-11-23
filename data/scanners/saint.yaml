@@ -1,0 +1,23 @@
+# ScannersDB record; fields are described in data/README.md
+name: SAINT
+flag: 🇺🇸
+country: United States
+website: https://www.carson-saint.com/
+category: company
+status: active
+rdns:
+- scanner*.saintcorporation.com
+note: Hosted scanners of the SAINT vulnerability scanner (SAINT Corporation, now Carson & SAINT), named scannerN.saintcorporation.com. Found by a PTR sweep of all IPv4 networks of AS63949 (Akamai/Linode) on 2026-11-23.
+ipv4:
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode
+  country: US
+  ip:
+  - '45.33.54.51'
+  - '45.33.62.197'
+  - '45.79.147.80'
+  - '45.79.223.103'
+sources:
+- https://www.carson-saint.com/
+updated: '2026-11-23'

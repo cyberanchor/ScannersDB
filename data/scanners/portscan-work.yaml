@@ -1,0 +1,21 @@
+# ScannersDB record; fields are described in data/README.md
+name: portscan.work
+website: https://portscan.work/
+category: unknown
+status: active
+rdns:
+- scanner*.portscan.work
+note: Hosts named scanner.portscan.work and scannerN.portscan.work. Found by a PTR sweep of all IPv4 networks of AS63949 (Akamai/Linode) on 2026-11-23. The domain serves no page; nothing is known about the operator.
+ipv4:
+- asn: AS63949
+  isp: Akamai Technologies, Inc.
+  org: Linode
+  country: US
+  ip:
+  - '45.79.209.20'
+  - '50.116.35.96'
+  - '66.228.62.109'
+  - '192.53.167.115'
+sources:
+- https://portscan.work/
+updated: '2026-11-23'
