@@ -8,7 +8,7 @@ category: company
 status: active
 rdns:
 - autoscan-*.research.a10protects.com
-note: DDoS research scans. The addresses are short-lived cloud servers that change often.
+note: DDoS research scans. The addresses are short-lived cloud servers that change often. Three addresses added on 2026-11-23 (PTR sweep of AS63949) had lost their PTR within an hour.
 ipv4:
 - asn: AS63949
   isp: Akamai Technologies
@@ -624,6 +624,7 @@ ipv4:
   - '45.79.253.134'
   - '50.116.17.222'
   - '50.116.19.134'
+  - '50.116.26.237'
   - '50.116.28.142'
   - '50.116.28.147'
   - '50.116.31.84'
@@ -708,6 +709,7 @@ ipv4:
   - '104.237.133.164'
   - '104.237.134.15'
   - '104.237.141.29'
+  - '104.237.141.212'
   - '104.237.141.248'
   - '104.237.142.80'
   - '104.237.142.132'
@@ -741,6 +743,7 @@ ipv4:
   - '173.255.194.112'
   - '173.255.196.63'
   - '173.255.196.142'
+  - '173.255.197.41'
   - '173.255.197.113'
   - '173.255.203.43'
   - '173.255.206.63'
